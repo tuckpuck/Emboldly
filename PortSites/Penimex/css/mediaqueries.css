@@ -1,0 +1,111 @@
+/*// Extra small devices (portrait phones, less than 34em)*/
+
+
+/*// Small devices (landscape phones, 34em and up)*/
+
+
+/*// Medium devices (tablets, 48em and up)*/
+
+
+/*// Large devices (desktops, 62em and up)*/
+
+
+/*// Extra large devices (large desktops, 75em and up)*/
+
+
+/*Specific Sizes*/
+
+
+/*///////////////////////////////////////////////////////*/
+
+
+/*  XS Size */
+
+@media (max-width: 34em) {
+  .carousel-item {
+    height: 25em;
+  }
+  .carousel-caption {
+    bottom: 0rem;
+    padding: 0px;
+    font-size: 1em;
+  }
+  .carousel-caption h1 {
+    font-size: 2em;
+  }
+  .nav-item,
+  .nav-link {
+    font-size: 1em;
+    padding: 4px 0 0 0;
+  }
+}
+
+
+/*  S Size */
+
+@media (min-width: 34em) and (max-width: 48em) {}
+
+
+/*  Medium */
+
+@media (min-width: 48em) and (max-width: 62em) {}
+
+
+/* Large */
+
+@media (min-width: 62em) and (max-width: 75em) {}
+
+
+/* Full Size - Extra Large Desktop and Up */
+
+@media (min-width: 75em) {}
+
+
+/*Under Sizes*/
+
+
+/*///////////////////////////////////////////////////////*/
+
+
+/* Everything under medium - XS and S Size - Mobile*/
+
+@media (max-width: 48em) {}
+
+
+/* Everything Under Large Size */
+
+@media (max-width: 62em) {
+  .carousel-item {
+    height: 25em;
+  }
+  .carousel-caption {
+    bottom: 2rem;
+    padding: 10px;
+  }
+}
+
+
+/* Everything Under Extra Large Size */
+
+@media (max-width: 75em) {}
+
+
+/*Over Sizes*/
+
+
+/*///////////////////////////////////////////////////////*/
+
+
+/* Everything Over Small Size */
+
+@media (min-width: 34em) {}
+
+
+/* Everything Over Medium Tablet Size */
+
+@media (min-width: 48em) {}
+
+
+/* Everything Over Large Size */
+
+@media (min-width: 62em) {}

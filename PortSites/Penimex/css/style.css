@@ -1,0 +1,439 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+body {
+  /*  padding-bottom: 3rem;*/
+  /*  color: #5a5a5a;*/
+  background-position: 100px 5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  margin: 0px 10px;
+  line-height: 200%;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0;
+  /* Space out the Bootstrap <hr> more */
+}
+
+.featurette-divider-extra {
+  margin: 10rem 0 5rem 0;
+  /* Space out the Bootstrap <hr> more */
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+.inline {
+  display: inline;
+}
+
+.dontdisplay {
+  display: none;
+}
+
+.rounded {
+  border-radius: 5%;
+}
+
+.navbar-light {
+  z-index: 5;
+}
+
+.locationname {
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+body {
+  /*  background-color: papayawhip;*/
+  background-image: url(../img/snow_@2X.png);
+}
+
+.logo {
+  width: 120px;
+}
+
+.nav-item,
+.nav-link {
+  font-size: .9em;
+  padding: 6px 0 0 0;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+
+/* Carousel base class */
+
+#myCarousel {
+  /*  min-height: 100%;*/
+}
+
+.carousel {
+  /*  margin-bottom: 4rem;*/
+}
+
+
+/* Since positioning the image, we need to help out the caption */
+
+.carousel-caption {
+  z-index: 10;
+  color: #1a1a1a;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  font-weight: 200;
+  max-width: 50rem;
+  position: absolute;
+  bottom: 15rem;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(240, 248, 255, .5);
+  z-index: 1;
+  padding: 40px 60px;
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+/* Declare heights because of positioning of img element */
+
+.carousel-item {
+  height: 45em;
+  /*  background-color: #777;*/
+  opacity: .9;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  min-height: 100%;
+  /*  min-height: 100%;*/
+  /*  height: 39rem;*/
+  /*  background-size: contain;*/
+}
+
+.carousel-indicators {
+  top: 1.5rem;
+  right: 1.5rem;
+  bottom: auto;
+  left: auto;
+  width: 1rem;
+  margin-left: 0;
+}
+
+.carousel-indicators > li {
+  margin-bottom: .25rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+
+/* Center align the text within the three columns below the carousel */
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: normal;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Spacing */
+
+
+/***********/
+
+
+/* Padding */
+
+
+/***********/
+
+.nopadding {
+  padding: 0px;
+}
+
+.toppadding5 {
+  padding-top: 5px;
+}
+
+.toppadding10 {
+  padding-top: 10px;
+}
+
+.toppadding15 {
+  padding-top: 15px;
+}
+
+.toppadding20 {
+  padding-top: 20px;
+}
+
+.toppadding25 {
+  padding-top: 25px;
+}
+
+.toppadding30 {
+  padding-top: 30px;
+}
+
+.toppadding35 {
+  padding-top: 35px;
+}
+
+.toppadding40 {
+  padding-top: 40px;
+}
+
+.toppadding50 {
+  padding-top: 50px;
+}
+
+. toppadding60 {
+  padding-top: 60px;
+}
+
+.toppadding70 {
+  padding-top: 70px;
+}
+
+.toppadding80 {
+  padding-top: 80px;
+}
+
+.bottompadding5 {
+  padding-bottom: 5px;
+}
+
+.bottompadding10 {
+  padding-bottom: 10px;
+}
+
+.bottompadding15 {
+  padding-bottom: 15px;
+}
+
+.bottompadding20 {
+  padding-bottom: 20px;
+}
+
+.bottompadding25 {
+  padding-bottom: 25px;
+}
+
+.bottompadding30 {
+  padding-bottom: 30px;
+}
+
+bottompadding35 {
+  padding-bottom: 35px;
+}
+
+.bottompadding40 {
+  padding-bottom: 40px;
+}
+
+.bottompadding50 {
+  padding-bottom: 50px;
+}
+
+.bottompadding60 {
+  padding-bottom: 60px;
+}
+
+.bottompadding70 {
+  padding-bottom: 70px;
+}
+
+.bottompadding80 {
+  padding-bottom: 80px;
+}
+
+
+/*Margin*/
+
+
+/***********/
+
+.nomargin {
+  margin: 0px;
+}
+
+.topmargin5 {
+  margin-top: 5px;
+}
+
+.topmargin10 {
+  margin-top: 10px;
+}
+
+.topmargin15 {
+  margin-top: 15px;
+}
+
+.topmargin20 {
+  margin-top: 20px;
+}
+
+.topmargin25 {
+  margin-top: 25px;
+}
+
+.topmargin30 {
+  margin-top: 30px;
+}
+
+.topmargin35 {
+  margin-top: 35px;
+}
+
+.topmargin40 {
+  margin-top: 40px;
+}
+
+.topmargin50 {
+  margin-top: 50px;
+}
+
+. topmargin60 {
+  margin-top: 60px;
+}
+
+.topmargin70 {
+  margin-top: 70px;
+}
+
+.topmargin80 {
+  margin-top: 80px;
+}
+
+.topmargin90 {
+  margin-top: 90px;
+}
+
+.topmargin100 {
+  margin-top: 100px;
+}
+
+.bottommargin5 {
+  margin-bottom: 5px;
+}
+
+.bottommargin10 {
+  margin-bottom: 10px;
+}
+
+.bottommargin15 {
+  margin-bottom: 15px;
+}
+
+.bottommargin20 {
+  margin-bottom: 20px;
+}
+
+.bottommargin25 {
+  margin-bottom: 25px;
+}
+
+.bottommargin30 {
+  margin-bottom: 30px;
+}
+
+bottommargin35 {
+  margin-bottom: 35px;
+}
+
+.bottommargin40 {
+  margin-bottom: 40px;
+}
+
+.bottommargin50 {
+  margin-bottom: 50px;
+}
+
+.bottommargin60 {
+  margin-bottom: 60px;
+}
+
+.bottommargin70 {
+  margin-bottom: 70px;
+}
+
+.bottommargin80 {
+  margin-bottom: 80px;
+}
+
+.bottommargin90 {
+  margin-bottom: 90px;
+}
+
+.bottommargin100 {
+  margin-bottom: 100px;
+}
+
+.abouttopsection {
+  background-image: url(../img/MangosteenLight.jpg);
+  background-size: cover;
+}
+
+.padding5 {
+  padding: 5px;
+}
+
+#sorting {
+  width: 100px
+}
+
+.nav-item {
+  font-size: 1.3em;
+  margin-top: 3px;
+}
