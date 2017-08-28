@@ -65,11 +65,9 @@ html {
 .country-text {
   display: none;
   background-color: #EFF0F2;
-  /*border: 1px solid black;*/
   border-radius: 12px;
   padding: 5px;
   margin-top: -100px;
-  text-transform: uppercase;
   font-family: 'Libre Baskerville', Helvetica, Arial, sans-serif;
   font-size: 14px;
   text-align: center;

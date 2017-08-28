@@ -8842,7 +8842,7 @@ topojson = (function () {
                     , id: "USA"
                     , arcs: [[[584]], [[585]], [[586]], [[587]], [[588]], [[589, -436, 590, -139]], [[591]], [[592]], [[593]], [[-141, 594]]]
                     , properties: {
-                        name: "USA"
+                        name: "United States"
                     }
                 }, {
                     type: "Polygon"
