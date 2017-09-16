@@ -9,30 +9,20 @@
   <!--Mobile specific meta goodness-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--Favicons-->
-  <link rel="apple-touch-icon" sizes="57x57" href="SiteImg/favicon/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="SiteImg/favicon/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="SiteImg/favicon/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="SiteImg/favicon/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="SiteImg/favicon/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="SiteImg/favicon/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="SiteImg/favicon/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="SiteImg/favicon/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="SiteImg/favicon/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="SiteImg/favicon/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="SiteImg/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="SiteImg/favicon/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="SiteImg/favicon/favicon-16x16.png">
-  <link rel="manifest" href="SiteImg/favicon/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
+  <link rel="apple-touch-icon" sizes="180x180" href="/SiteImg/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/SiteImg/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/SiteImg/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/SiteImg/favicons/manifest.json">
+  <link rel="mask-icon" href="/SiteImg/favicons/safari-pinned-tab.svg" color="#1F313B">
+  <link rel="shortcut icon" href="/SiteImg/favicons/favicon.ico">
+  <meta name="msapplication-config" content="/SiteImg/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#1F313B">
   <!--Bootstrap-->
   <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
   <!--CSS-->
   <link rel="stylesheet" type="text/css" href="CSS/Style.css">
   <link rel="stylesheet" type="text/css" href="CSS/Color.css">
   <link rel="stylesheet" type="text/css" href="CSS/MediaQueries.css">
-  <link rel="stylesheet" type="text/css" href="CSS/Map.css">
   <!--Google Fonts-->
   <!--Logo Font-->
   <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700' rel='stylesheet' type='text/css'>
@@ -81,6 +71,17 @@
     <div class="container main-area alpha contenttoppadding bottompadding100 smoothtransition">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-xs-center">
+          <a href="Portfolio.html" data-imagelightbox="a"><img src="Img/RockyMountainHigh.JPG" alt="Mt. Elbert, Colorado" class="circle topmargin15 bottommargin15 hovershadowlrg">
+              <div class="circular spinforever">
+                  <svg viewBox="0 0 100 100">
+                      <path d="M 0,50 a 50,50 0 1,1 0,1 z" id="circle" />
+                      <text>
+                          <textPath xlink:href="#circle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</textPath>
+                      </text>
+                  </svg>
+          </a>
+          </div>
+
           <h3 class="text-xs-center topsecmar">Who Am I?</h3>
           <p>I'm Tucker. I'm a 25-year-old from Boulder, Colorado. I created this website to display my web programming skills. I enjoy good company, food, craft beer, mountians, books, and everything relating to the internet. This site is where I display my favorite work.
          </p>
@@ -101,56 +102,7 @@
            <hr class="bottommargin0 topmargin60">
                 </div>
         </div>
-                    <div id="map" class="">
-                        <div class="datamaps-hoverover hovershadowlrg">
-                        </div>
-                      </div>
 
-                    <div class="text-xs-center row">
-                      <div class="country-text text-xs-center col-xs-12 col-md-2 col-md-push-5"></div>
-                    </div>
-
-
-            <div class="pictures">
-                <div class="col-lg-12 col-lg-pull-2 col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 text-xs-center toppadding40">
-                    <p class="smalltext nopadding">Click image to enlarge. Click image again to escape.</p>
-                    <a href="Img/CrestedButte.jpg" data-imagelightbox="a"><img src="Img/Thumbnails/CrestedButteThumb.jpg" alt="Crested Butte, CO" class="hovershadow homeimg"></a>
-                    <a href="Img/MountainTree.jpg" data-imagelightbox="a"><img src="Img/Thumbnails/MountainTreeThumb.jpg" alt="Huangshan Mountain, China" class="hovershadow homeimg"></a>
-                    <a href="Img/WillandICrushingMountainsSquare.jpg" data-imagelightbox="a"><img src="Img/Thumbnails/WillandICrushingMountainsSquareThumb.jpg" alt="Mt. Elbert, CO" class="hovershadow homeimg"></a>
-                    <a href="Img/Champagne.jpg" data-imagelightbox="a"><img src="Img/Thumbnails/ChampagneThumb.jpg" alt="School Celebration" class="hovershadow homeimg"></a>
-                    <a href="Img/HammockChillin.jpg" data-imagelightbox="a"><img src="Img/Thumbnails/HammockChillinThumb.jpg" alt="Relaxing Days at Eckerd College" class="hovershadow homeimg"></a>
-                    <a href="Img/WarElephant.jpg" data-imagelightbox="a"><img src="Img/Thumbnails/WarElephantThumb.jpg" alt="Graffiti in Chiang Mai, Thailand" class="hovershadow homeimg"></a>
-                </div>
-                <div class="col-lg-12 col-lg-pull-2 col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 text-xs-center">
-                    <a href="Img/EckerdSunsetSquare.jpg" data-imagelightbox="a"><img src="Img/Thumbnails/EckerdSunsetSquareThumb.jpg" alt="Sunset at Eckerd College" class="hovershadow homeimg"></a>
-                    <a href="Img/Lao.jpg" data-imagelightbox="a"><img src="Img/Thumbnails/LaoThumb.jpg" alt="Water Cave, Vang Vieng Laos" class="hovershadow homeimg"></a>
-                    <a href="Img/SamiCB.JPG" data-imagelightbox="a"><img src="Img/Thumbnails/SamiCBThumb.jpg" alt="Sami in Crested Butte" class="hovershadow homeimg"></a>
-                    <a href="Img/Eiffel.jpg" data-imagelightbox="a"><img src="Img/Thumbnails/EiffelThumb.jpg" alt="France" class="hovershadow homeimg"></a>
-                    <a href="Img/Coppertail.jpg" data-imagelightbox="a"><img src="Img/Thumbnails/CoppertailThumb.jpg" alt="Beach Sippin" class="hovershadow homeimg"></a>
-                    <a href="Img/CrestedBeauty.jpg" data-imagelightbox="a"><img src="Img/Thumbnails/CrestedBeautyThumb.jpg" alt="Crested Butte, CO" class="hovershadow homeimg"></a>
-                </div>
-                <div class="col-lg-12 col-lg-pull-2 col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 text-xs-center">
-                    <a href="Img/BuddhaChillin.JPG" data-imagelightbox="a"><img src="Img/Thumbnails/BuddhaChillinThumb.jpg" alt=" Amida Buddha Diabatsu, Japan" class="hovershadow homeimg"></a>
-                    <a href="Img/CaribbeanSquare.jpg" data-imagelightbox="a"><img src="Img/Thumbnails/CaribbeanSquareThumb.jpg" alt="Cliff Jumping, Caribbean" class="hovershadow homeimg"></a>
-                    <a href="Img/DenverBiscuitCo.jpg" data-imagelightbox="a"><img src="Img/Thumbnails/DenverBiscuitCoThumb.jpg" alt="Denver Biscuit Company. AKA yum." class="hovershadow homeimg"></a>
-                    <a href="Img/MissionWolfSquare.jpg" data-imagelightbox="a"><img src="Img/MissionWolfSquare.jpg" alt="The Boys" class="hovershadow homeimg"></a>
-                    <a href="Img/Prague.jpg" data-imagelightbox="a"><img src="Img/Thumbnails/PragueThumb.jpg" alt="Prague Astronomical Clock" class="hovershadow homeimg"></a>
-                    <a href="Img/RocksSquare.jpg" data-imagelightbox="a"><img src="Img/Thumbnails/RocksSquareThumb.jpg" alt="Independence Trail, CO" class="hovershadow homeimg"></a>
-                </div>
-                <div class="col-lg-12 col-lg-pull-2 col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 text-xs-center">
-                    <a href="Img/RomeSquare.jpg" data-imagelightbox="a"><img src="Img/Thumbnails/RomeSquareThumb.jpg" alt="Snappin pictures in Rome" class="hovershadow homeimg"></a>
-                    <a href="Img/SouthBeachSquare.jpg" data-imagelightbox="a"><img src="Img/Thumbnails/SouthBeachSquareThumb.jpg" alt="Eckerd South Beach, Florida" class="hovershadow homeimg"></a>
-                    <a href="Img/Austin.jpg" data-imagelightbox="a"><img src="Img/Thumbnails/AustinThumb.jpg" alt="Wedding fly with Austin" class="hovershadow homeimg"></a>
-                    <a href="Img/BangkokDriver.jpg" data-imagelightbox="a"><img src="Img/Thumbnails/BangkokDriverThumb.jpg" alt="Taxi in Bangkok" class="hovershadow homeimg"></a>
-                    <a href="Img/SkiBeers.jpg" data-imagelightbox="a"><img src="Img/Thumbnails/SkiBeersThumb.jpg" alt="Strapped in for a Flight" class="hovershadow homeimg"></a>
-                    <a href="Img/OfficersGulchSquare.jpg" data-imagelightbox="a"><img src="Img/Thumbnails/OfficersGulchSquareThumb.jpg" alt="Officer's Gulch, CO" class="hovershadow homeimg"></a>
-                </div>
-            </div>
-                       <div class="col-xs-12 text-xs-center">
-                <a href="Instagram.html" class="expand blue btn bigbtn shadow topmargin35" id="blue">
-                    <p class="no-indent nopadding">The 'Gram</p>
-                </a>
-            </div>
 </div>
     </div>
     </div>
@@ -176,41 +128,8 @@
     <script type="text/javascript" src="JS/bootstrap.min.js"></script>
     <!--Navbutton Enlarge-->
     <script type="text/javascript" src="JS/NavbuttonSize.js"></script>
-    <!--Lightbox-->
-    <script type="text/javascript" src="JS/Lightbox.js"></script>
-    <!--Map-->
-    <script type="text/javascript" src="JS/Country.js"></script>
     <!--End JS-->
-    <script>
-      $("path").on("click", function() {
-        console.log($(".country").text());
-        var countryClicked = $(".country").text()
-        $(".country-text").text(countryClicked);
-        $(".country-text").fadeIn(2000);
-      });
-    </script>
 
-    <script>
-    function animatethis(targetElement, speed) {
-        $(targetElement).animate({ marginLeft: "+=690px"},
-        {
-            duration: speed,
-            complete: function ()
-            {
-                targetElement.animate({ marginLeft: "-=690px"},
-                {
-                    duration: speed,
-                    complete: function ()
-                    {
-                        animatethis(targetElement, speed);
-                    }
-                });
-            }
-        });
-    };
-
-    animatethis($('.animateglobe'), 4000);
-    </script>
 </body>
 
 </html>

@@ -1207,6 +1207,7 @@ bottommargin35 {
 
 .circular path {
   fill: none;
+  stroke: none;
 }
 
 .circular {
