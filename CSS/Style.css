@@ -540,8 +540,17 @@ span {
 }
 
 figure.mouseover-effect:hover img {
-  opacity: 0.4;
+  opacity: .1;
 }
+
+figure.mouseover-effect:hover {
+  background-color: #333;
+}
+
+figure.mouseover-effect:hover h3 {
+visibility: visible;
+}
+
 
 
 /*Caption Placement*/
@@ -578,6 +587,7 @@ figure.mouseover-effect h3 {
   transition: transform 0.35s;
   -webkit-transform: translate3d(0, -20px, 0);
   transform: translate3d(0, -20px, 0);
+  visibility: hidden;
 }
 
 figure.mouseover-effect p {
