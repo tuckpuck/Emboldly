@@ -169,11 +169,13 @@
         <!--End JS-->
 
         <script>
-          $("path").on("click", function() {
-            console.log($(".country").text());
-            var countryClicked = $(".country").text()
+          $("path").on("click", function(event) {
+            console.log(event);
+            console.log(event.currentTarget.classList[1]);
+            var countryClicked = $(".country").text();
+            console.log(countryClicked);
             $(".country-text").text(countryClicked);
-            $(".country-text").fadeIn(2000);
+            $(".country-text").show();
           });
         </script>
 

@@ -474,6 +474,10 @@ span {
 
 /***************/
 
+.port-item {
+    margin: 30px 30px;
+}
+
 .flex {
   display: -ms-flex;
   display: -webkit-flex;
@@ -497,9 +501,7 @@ span {
   position: relative;
   display: inline-flex;
   overflow: hidden;
-  margin: 30px 30px;
-  max-width: 400px;
-  max-height: 225px;
+  margin: 0px 0px;
   text-align: center;
   cursor: pointer;
   /*  border: 1px solid #2f2f2f;*/
