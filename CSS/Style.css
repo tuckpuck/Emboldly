@@ -45,6 +45,11 @@ body {
   background: rgba(219, 202, 182, 0.56);
 }
 
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 
 /*Heirarchy, Font and Font Sizes*/
 
@@ -675,6 +680,11 @@ i {
 
 .homeimg:hover {
   opacity: .9;
+}
+
+.mapdiv {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 
 
