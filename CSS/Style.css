@@ -45,6 +45,11 @@ body {
   background: rgba(219, 202, 182, 0.56);
 }
 
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 
 /*Heirarchy, Font and Font Sizes*/
 
@@ -474,6 +479,10 @@ span {
 
 /***************/
 
+.port-item {
+    margin: 30px 30px;
+}
+
 .flex {
   display: -ms-flex;
   display: -webkit-flex;
@@ -497,9 +506,7 @@ span {
   position: relative;
   display: inline-flex;
   overflow: hidden;
-  margin: 30px 30px;
-  max-width: 400px;
-  max-height: 225px;
+  margin: 0px 0px;
   text-align: center;
   cursor: pointer;
   /*  border: 1px solid #2f2f2f;*/
@@ -540,8 +547,17 @@ span {
 }
 
 figure.mouseover-effect:hover img {
-  opacity: 0.4;
+  opacity: .1;
 }
+
+figure.mouseover-effect:hover {
+  background-color: #333;
+}
+
+figure.mouseover-effect:hover h3 {
+visibility: visible;
+}
+
 
 
 /*Caption Placement*/
@@ -578,6 +594,7 @@ figure.mouseover-effect h3 {
   transition: transform 0.35s;
   -webkit-transform: translate3d(0, -20px, 0);
   transform: translate3d(0, -20px, 0);
+  visibility: hidden;
 }
 
 figure.mouseover-effect p {
@@ -663,6 +680,11 @@ i {
 
 .homeimg:hover {
   opacity: .9;
+}
+
+.mapdiv {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 
 
@@ -1207,6 +1229,7 @@ bottommargin35 {
 
 .circular path {
   fill: none;
+  stroke: none;
 }
 
 .circular {
