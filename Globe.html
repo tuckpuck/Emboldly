@@ -169,44 +169,32 @@
         <!--End JS-->
 
         <script>
-          $("path").on("click", function(event) {
-            // console.log(event);
+          $("path").on("mouseover", function(event) {
             var currentCode = event.currentTarget.classList[1];
-            console.log(currentCode);
 
 var countryCodes = [
 {"name": "Afghanistan", "code": "AFG"},
-{"name": "Åland Islands", "code": "ALA"},
 {"name": "Albania", "code": "ALB"},
 {"name": "Algeria", "code": "DZA"},
-{"name": "American Samoa", "code": "ASM"},
-{"name": "AndorrA", "code": "AND"},
 {"name": "Angola", "code": "AGO"},
-{"name": "Anguilla", "code": "AIA"},
 {"name": "Antarctica", "code": "ATA"},
 {"name": "Antigua and Barbuda", "code": "ATG"},
 {"name": "Argentina", "code": "ARG"},
 {"name": "Armenia", "code": "ARM"},
-{"name": "Aruba", "code": "ABW"},
 {"name": "Australia", "code": "AUS"},
 {"name": "Austria", "code": "AUT"},
 {"name": "Azerbaijan", "code": "AZE"},
 {"name": "Bahamas", "code": "BHS"},
-{"name": "Bahrain", "code": "BHR"},
 {"name": "Bangladesh", "code": "BGD"},
-{"name": "Barbados", "code": "BRB"},
 {"name": "Belarus", "code": "BLR"},
 {"name": "Belgium", "code": "BEL"},
 {"name": "Belize", "code": "BLZ"},
 {"name": "Benin", "code": "BEN"},
-{"name": "Bermuda", "code": "BMU"},
 {"name": "Bhutan", "code": "BTN"},
 {"name": "Bolivia", "code": "BOL"},
 {"name": "Bosnia and Herzegovina", "code": "BIH"},
 {"name": "Botswana", "code": "BWA"},
-{"name": "Bouvet Island", "code": "BVT"},
 {"name": "Brazil", "code": "BRA"},
-{"name": "British Indian Ocean Territory", "code": "IOT"},
 {"name": "Brunei Darussalam", "code": "BRN"},
 {"name": "Bulgaria", "code": "BGR"},
 {"name": "Burkina Faso", "code": "BFA"},
@@ -214,19 +202,14 @@ var countryCodes = [
 {"name": "Cambodia", "code": "KHM"},
 {"name": "Cameroon", "code": "CMR"},
 {"name": "Canada", "code": "CAN"},
-{"name": "Cape Verde", "code": "CPV"},
-{"name": "Cayman Islands", "code": "CYM"},
 {"name": "Central African Republic", "code": "CAF"},
 {"name": "Chad", "code": "TCD"},
 {"name": "Chile", "code": "CHL"},
 {"name": "China", "code": "CHN"},
-{"name": "Christmas Island", "code": "CXR"},
-{"name": "Cocos (Keeling) Islands", "code": "CCK"},
 {"name": "Colombia", "code": "COL"},
 {"name": "Comoros", "code": "COM"},
 {"name": "Congo", "code": "COG"},
 {"name": "Congo, The Democratic Republic of the", "code": "COD"},
-{"name": "Cook Islands", "code": "COK"},
 {"name": "Costa Rica", "code": "CRI"},
 {"name": "Cote D'Ivoire", "code": "CIV"},
 {"name": "Croatia", "code": "HRV"},
@@ -377,6 +360,7 @@ var countryCodes = [
 {"name": "Somalia", "code": "SOM"},
 {"name": "Somaliland", "code": "-99"},
 {"name": "South Africa", "code": "ZAF"},
+{"name": "Republic of South Sudan", "code": "SDS"},
 {"name": "South Georgia and the South Sandwich Islands", "code": "SGS"},
 {"name": "Spain", "code": "ESP"},
 {"name": "Sri Lanka", "code": "LKA"},
@@ -423,16 +407,15 @@ var countryCodes = [
 
 for(let i = 0; i < countryCodes.length; i++){
   if(countryCodes[i].code == currentCode) {
-    console.log(countryCodes[i].name);
     $(".country-text").text(countryCodes[i].name);
-          $(".country-text").show();
+          $(".country-text").fadeIn();
 
   }
 }
-            // var countryClicked = $(".country").text();
-            // console.log(countryClicked);
-            // $(".country-text").text(countryClicked);
-            // $(".country-text").show();
+});
+
+  $("path").on("mouseout", function() {
+            $(".country-text").hide();
           });
         </script>
 
