@@ -7936,7 +7936,7 @@ topojson = (function () {
                     }
                 }, {
                     type: "Polygon"
-                    , id: "-99"
+                    , id: "-98"
                     , arcs: [[216, 217]]
                     , properties: {
                         name: "Northern Cyprus"
@@ -8286,7 +8286,7 @@ topojson = (function () {
                     }
                 }, {
                     type: "Polygon"
-                    , id: "-99"
+                    , id: "-97"
                     , arcs: [[-18, 403, 404, 405]]
                     , properties: {
                         name: "Kosovo"
@@ -8622,7 +8622,7 @@ topojson = (function () {
                     }
                 }, {
                     type: "Polygon"
-                    , id: "-99"
+                    , id: "-96"
                     , arcs: [[-241, -456, 533, -429]]
                     , properties: {
                         name: "Western Sahara"
