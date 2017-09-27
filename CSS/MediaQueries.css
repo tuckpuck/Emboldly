@@ -299,6 +299,14 @@
     .babycircle {
         margin-bottom: 20px
     }
+    .port-info-panel {
+    width: 500px;
+    margin-top: -20px;
+}
+.port-item a figure img {
+    width: 600px;
+    height: 350px;
+}
 }
 
 
@@ -310,5 +318,28 @@
 @media (max-width: 75em) {
     .testamonialtopmargin {
         margin-top: -20px;
+    }
+}
+
+@media (max-width: 34em) {
+    #copyright {
+        display: block;
+        margin: 0 auto;
+    }
+    .footer-social {
+        float: none;
+        padding: 10px;
+        margin-right: 11px;
+    }
+    .social-icon-small {
+        max-height: 110px;
+        /*    padding: 10px;*/
+        margin: 2px;
+    }
+    .flickr {
+        margin-top: 9px;
+    }
+    .main-footer {
+        height: 100%;
     }
 }

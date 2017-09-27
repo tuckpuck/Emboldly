@@ -483,6 +483,12 @@ span {
     margin: 30px 30px;
 }
 
+.port-info-panel {
+    width: 100px;
+    margin: 10px 10px;
+    line-height: 1.4;
+}
+
 .flex {
   display: -ms-flex;
   display: -webkit-flex;
