@@ -483,10 +483,22 @@ span {
     margin: 30px 30px;
 }
 
+.left-panel {
+  margin-left: -10px;
+}
+
 .port-info-panel {
-    width: 100px;
-    margin: 10px 10px;
-    line-height: 1.4;
+    width: 200px;
+    margin: 50px 10px 10px;
+    line-height: 1.5;
+    text-align: left;
+        font-family: 'Raleway',"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.port-info-panel ul {
+      padding-left: 20px;
+      margin-top: 15px;
+      margin-bottom: auto;
 }
 
 .flex {
