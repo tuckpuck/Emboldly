@@ -293,6 +293,12 @@
 /***********/
 
 @media (max-width: 62em) {
+  .left-panel {
+    margin-left: -10px;
+}
+.port-item {
+    margin: 30px 0px;
+}
     #name {
         margin-bottom: -8px;
     }
