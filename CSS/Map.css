@@ -67,10 +67,11 @@ html {
   /*background-color: #EFF0F2;*/
   border-radius: 3px;
   padding: 10px;
-  margin-top: -280px;
-  margin-left: -340px;
-  font-family: 'Libre Baskerville', Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  margin-top: -320px;
+  margin-left: -330px;
+  line-height: 1.4;
+  font-family: 'Cabin Sketch', fantasy;
+  font-size: 24px;
 }
 
 
