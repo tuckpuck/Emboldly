@@ -173,7 +173,7 @@ var countryCodes = [
 {"name": "Colombia", "code": "COL"},
 {"name": "Comoros", "code": "COM"},
 {"name": "Congo", "code": "COG"},
-{"name": "Congo, The Democratic Republic of the", "code": "COD"},
+{"name": "The Democratic Republic of the Congo", "code": "COD"},
 {"name": "Costa Rica", "code": "CRI"},
 {"name": "Cote D'Ivoire", "code": "CIV"},
 {"name": "Croatia", "code": "HRV"},
@@ -211,7 +211,7 @@ var countryCodes = [
 {"name": "Iceland", "code": "ISL"},
 {"name": "India", "code": "IND"},
 {"name": "Indonesia", "code": "IDN"},
-{"name": "Iran, Islamic Republic Of", "code": "IRN"},
+{"name": "Islamic Republic of Iran", "code": "IRN"},
 {"name": "Iraq", "code": "IRQ"},
 {"name": "Ireland", "code": "IRL"},
 {"name": "Israel", "code": "ISR"},
@@ -221,8 +221,8 @@ var countryCodes = [
 {"name": "Jordan", "code": "JOR"},
 {"name": "Kazakhstan", "code": "KAZ"},
 {"name": "Kenya", "code": "KEN"},
-{"name": "Korea, Democratic People's Republic of", "code": "PRK"},
-{"name": "Korea, Republic of", "code": "KOR"},
+{"name": "Democratic People's Republic of Korea", "code": "PRK"},
+{"name": "Republic of Korea", "code": "KOR"},
 {"name": "Kosovo", "code": "-97"},
 {"name": "Kuwait", "code": "KWT"},
 {"name": "Kyrgyzstan", "code": "KGZ"},
@@ -234,14 +234,14 @@ var countryCodes = [
 {"name": "Libyan Arab Jamahiriya", "code": "LBY"},
 {"name": "Lithuania", "code": "LTU"},
 {"name": "Luxembourg", "code": "LUX"},
-{"name": "Macedonia, The Former Yugoslav Republic of", "code": "MKD"},
+{"name": "The Former Yugoslav Republic of Macedonia", "code": "MKD"},
 {"name": "Madagascar", "code": "MDG"},
 {"name": "Malawi", "code": "MWI"},
 {"name": "Malaysia", "code": "MYS"},
 {"name": "Mali", "code": "MLI"},
 {"name": "Mauritania", "code": "MRT"},
 {"name": "Mexico", "code": "MEX"},
-{"name": "Moldova, Republic of", "code": "MDA"},
+{"name": "Republic of Moldova", "code": "MDA"},
 {"name": "Monaco", "code": "MCO"},
 {"name": "Mongolia", "code": "MNG"},
 {"name": "Montenegro", "code": "MNE"},
@@ -260,7 +260,7 @@ var countryCodes = [
 {"name": "North Cyprus", "code": "-98"},
 {"name": "Oman", "code": "OMN"},
 {"name": "Pakistan", "code": "PAK"},
-{"name": "Palestinian Territory, Occupied", "code": "PSE"},
+{"name": "Occupied Palestinian Territory", "code": "PSE"},
 {"name": "Panama", "code": "PAN"},
 {"name": "Papua New Guinea", "code": "PNG"},
 {"name": "Paraguay", "code": "PRY"},
@@ -292,9 +292,9 @@ var countryCodes = [
 {"name": "Sweden", "code": "SWE"},
 {"name": "Switzerland", "code": "CHE"},
 {"name": "Syrian Arab Republic", "code": "SYR"},
-{"name": "Taiwan, Province of China", "code": "TWN"},
+{"name": "Taiwan", "code": "TWN"},
 {"name": "Tajikistan", "code": "TJK"},
-{"name": "Tanzania, United Republic of", "code": "TZA"},
+{"name": "United Republic of Tanzania", "code": "TZA"},
 {"name": "Thailand", "code": "THA"},
 {"name": "Timor-Leste", "code": "TLS"},
 {"name": "Togo", "code": "TGO"},
@@ -321,7 +321,7 @@ var countryCodes = [
 for(let i = 0; i < countryCodes.length; i++){
   if(countryCodes[i].code == currentCode) {
     $(".country-text").text(countryCodes[i].name);
-          $(".country-text").fadeIn();
+          $(".country-text").show();
 
   }
 }

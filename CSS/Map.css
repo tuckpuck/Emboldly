@@ -64,13 +64,13 @@ html {
 
 .country-text {
   display: none;
-  background-color: #EFF0F2;
+  /*background-color: #EFF0F2;*/
   border-radius: 3px;
   padding: 10px;
-  margin-top: -155px;
+  margin-top: -280px;
+  margin-left: -340px;
   font-family: 'Libre Baskerville', Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  /* text-align: center; */
+  font-size: 18px;
 }
 
 
