@@ -8962,7 +8962,7 @@ var dataMap = new Datamap({
     , geographyConfig: {
         highlightBorderColor: '#fff'
         , highlightBorderWidth: 1, //      country color on hover:
-        highlightFillColor: '#d9d9d9'
+        highlightFillColor: 'deepskyblue'
         , popupOnHover: false
     }
     , fills: {
