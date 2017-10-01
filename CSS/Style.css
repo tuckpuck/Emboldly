@@ -26,6 +26,7 @@ body {
   font-family: 'Roboto', sans-serif;
   line-height: 2.4;
   color: #111212;
+  /*color: white;*/
   font-size: 16px;
 }
 
@@ -42,8 +43,8 @@ body {
 }
 
 .alpha {
-  /*background: rgba(219, 202, 182, 0.56);*/
-  background: rgba(231, 231, 231, 0.9);
+  /*background: rgba(231, 231, 231, 0.9);*/
+  background: url(../SiteImg/backgroundPattern/snow.png)
 }
 
 .container {
@@ -111,7 +112,7 @@ span {
 /********/
 
 .main-header {
-  /*  background-image: url(../SiteImg/stardust.png);*/
+    /*background-image: url(../SiteImg/stardust.png);*/
   background-color: rgb(31, 49, 59);
   padding: .7em 0;
   width: 100%;
@@ -520,6 +521,7 @@ span {
 .grid {
   position: relative;
   margin: 0 auto;
+  max-width: 1200px;
   list-style: none;
   text-align: center;
 }
