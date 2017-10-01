@@ -37,12 +37,13 @@ body {
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-  border-left: 1px solid rgba(94, 142, 190, 0.6);
-  border-right: 1px solid rgba(94, 142, 190, 0.6);
+  /*border-left: 1px solid rgba(94, 142, 190, 0.6);*/
+  /*border-right: 1px solid rgba(94, 142, 190, 0.6);*/
 }
 
 .alpha {
-  background: rgba(219, 202, 182, 0.56);
+  /*background: rgba(219, 202, 182, 0.56);*/
+  background: rgba(231, 231, 231, 0.9);
 }
 
 .container {
