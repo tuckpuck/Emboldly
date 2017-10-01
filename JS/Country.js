@@ -8966,7 +8966,7 @@ var dataMap = new Datamap({
         , popupOnHover: false
     }
     , fills: {
-        defaultFill: '#eff0f2', //    countries I've been to color:
+        defaultFill: '#dcdee2', //    countries I've been to color:
         gt: '#708DCD'
     }
     , data: {
