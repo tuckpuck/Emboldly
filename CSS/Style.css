@@ -498,12 +498,15 @@ span {
 }
 
 .panel-description {
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 .port-info-title {
   font-family: 'Raleway',"Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center !important;
+  display: block;
+  text-decoration: underline;
+  font-size: large;
 }
 
 .port-link {
