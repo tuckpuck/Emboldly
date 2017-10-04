@@ -506,13 +506,9 @@ span {
   text-align: center !important;
 }
 
-.port-info-panel ul {
-      padding-left: 20px;
-      margin-top: 15px;
-      margin-bottom: auto;
-          text-align: left;
+.port-link {
+  font-size: 16px;
 }
-
 .flex {
   display: -ms-flex;
   display: -webkit-flex;
@@ -668,9 +664,6 @@ figure.mouseover-effect:hover h3, figure.mouseover-effect:hover p {
   font-size: .7em;
 }
 
-.topsecmar {
-  margin-bottom: 20px;
-}
 
 
 /* Contact */
@@ -862,6 +855,7 @@ i {
 /***********/
 
 .topsecmar {
+  margin-bottom: 20px;
   margin-top: 60px;
 }
 
@@ -923,6 +917,14 @@ i {
 
 .topmargin80 {
   margin-top: 80px;
+}
+
+.topmargin90 {
+  margin-top: 90px;
+}
+
+.topmargin100 {
+  margin-top: 100px;
 }
 
 .bottommargin0 {
