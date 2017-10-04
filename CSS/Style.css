@@ -509,6 +509,11 @@ span {
 .port-link {
   font-size: 16px;
 }
+
+.fa-sitelink {
+  margin-bottom: 4px;
+}
+
 .flex {
   display: -ms-flex;
   display: -webkit-flex;
