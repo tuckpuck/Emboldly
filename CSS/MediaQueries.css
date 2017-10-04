@@ -109,6 +109,10 @@
     .contactinfo {
         margin-left: 20px;
     }
+    .port-image{
+      /*max-width: auto !important;*/
+      height: 100% !important;
+    }
 }
 
 
