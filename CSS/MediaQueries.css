@@ -14,7 +14,13 @@
 
 
 /*// Extra large devices (large desktops, 75em and up)*/
-
+/* very very small, not a bootstrap size */
+@media (max-width: 26em) {
+  .ck-facebook-iframe {
+    max-width: 250px;
+    height: 40px;
+  }
+}
 
 /* XS Size*/
 

@@ -2,7 +2,6 @@
 
 
 /********************/
-
 * {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -38,12 +37,9 @@ body {
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-  /*border-left: 1px solid rgba(94, 142, 190, 0.6);*/
-  /*border-right: 1px solid rgba(94, 142, 190, 0.6);*/
 }
 
 .alpha {
-  /*background: rgba(231, 231, 231, 0.9);*/
   background: url(../SiteImg/backgroundPattern/snow.png)
 }
 
@@ -719,31 +715,17 @@ i {
   padding-right: 0px !important;
 }
 
-
-
-
 /*Instagram*/
-
-
 /* Spacing */
-
-
 /***********/
-
 .no-indent {
   text-indent: 0px;
 }
-
-
 /* Padding */
-
-
 /***********/
-
 .contenttoppadding {
   padding-top: 80px;
 }
-
 .nopadding {
   padding: 0px;
 }
