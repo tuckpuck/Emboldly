@@ -710,10 +710,18 @@ i {
   opacity: .9;
 }
 
+/* Globe */
+
 .mapdiv {
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
+
+.datamaps-hoverover {
+  margin-top: 200px;
+}
+
+
 
 /*Instagram*/
 /* Spacing */
