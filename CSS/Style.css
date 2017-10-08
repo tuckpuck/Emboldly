@@ -30,7 +30,7 @@ body {
 }
 
 .wrap {
-  background: url(../SiteImg/backgroundPattern/bright_squares.png);
+  /*background: url(../SiteImg/backgroundPattern/bright_squares.png);*/
 }
 
 .main-area {
@@ -50,7 +50,6 @@ body {
 
 
 /*Heirarchy, Font and Font Sizes*/
-
 h1 {
   font-size: 37px;
 }
@@ -718,7 +717,7 @@ i {
 }
 
 .datamaps-hoverover {
-  margin-top: 200px;
+  min-width: 100%;
 }
 
 
@@ -1124,7 +1123,6 @@ bottommargin35 {
 .contactIcon {
   height: 85px;
   padding: 12px 12px;
-  border: 1px solid rgb(179, 180, 180);
   border-radius: 11px;
   margin: 1px;
 }
