@@ -11,22 +11,41 @@ html {
     /*	-webkit-font-smoothing: antialiased;*/
 }
 
+.mapdiv {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.datamaps-hoverover {
+  /*min-width: 100%;*/
+}
+
+
 #map {
-    min-width: 50%;
+    width: 50%;
     display: inline-block;
-    height: 750px;
+    height: 650px;
     background: url(../SiteImg/backgroundPattern/star.png);
     float:left;
+    border-right: 1px solid black;
 }
 
 #map-half {
-    min-width: 50%;
+    width: 50%;
     display: inline;
-    height: 750px;
+    height: 650px;
     background: url(../SiteImg/backgroundPattern/star.png);
     float:right;
+    border-left: 1px solid black;
 }
 
+.map-image-list {
+  list-style: none;
+}
+
+.map-image-list-item {
+  
+}
 
 
 
