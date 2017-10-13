@@ -868,14 +868,13 @@
             };
             function displayPhotos(data) {
               console.log(data);
-              var photoHTML = '<ul class="map-image-list">';
+              var photoHTML = '<section class="map-images-container">';
               $.each(data.items,function(i,photo) {
-                photoHTML += '<li class="map-image-list-item">';
                 photoHTML += '<div class="map-image-container">';
                 photoHTML += '<a href="' + photo.link + '" class="map-image-link">';
-                photoHTML += '<img src="' + photo.media.m + '" class="map-image"></a></div></li>';
+                photoHTML += '<img src="' + photo.media.m + '" class="map-image"></a></div>';
               }); // end each
-              photoHTML += '</ul>';
+              photoHTML += '</section>';
               $('#map-half').html(photoHTML);
             }
             $.getJSON(flickerAPI, flickrOptions, displayPhotos);
@@ -896,35 +895,6 @@
       $("path").on("mouseout", function() {
         $(".country-text").hide();
       });
-
-// Flickr API part
- // $('.datamaps-subunit').click(function (event) {
- //   console.log(event.target);
-
-    // $("button").removeClass("selected");
-    // $(this).addClass("selected");
-
-    // the AJAX part
-    // var flickerAPI = "https://www.flickr.com/services/feeds/photos_public.gne?format=json&id=136839724@N02&jsoncallback=?";
-    // var country = $(this).text();
-    // console.log(country);
-    // var flickrOptions = {
-    //   tags: country,
-    //   format: "json"
-    // };
-    // function displayPhotos(data) {
-    //   console.log(data);
-    //   var photoHTML = '<ul>';
-    //   $.each(data.items,function(i,photo) {
-    //     photoHTML += '<li class="grid-25 tablet-grid-50">';
-    //     photoHTML += '<a href="' + photo.link + '" class="image">';
-    //     photoHTML += '<img src="' + photo.media.m + '"></a></li>';
-    //   }); // end each
-    //   photoHTML += '</ul>';
-    //   $('#photos').html(photoHTML);
-    // }
-    // $.getJSON(flickerAPI, flickrOptions, displayPhotos);
-  // });  end click
     </script>
 
     <script>
