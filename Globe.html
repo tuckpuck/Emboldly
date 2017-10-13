@@ -85,8 +85,8 @@
             </div>
           </div>
 
-          <div id="map-half" class="text-xs-center inline">
-          <span class="">Globe Info</span>
+          <div id="map-half" class="text-xs-center">
+          <span class="">Click a country in blue to see pictues from there!</span>
 </div>
 
           <div class="text-xs-center row">
@@ -871,8 +871,9 @@
               var photoHTML = '<ul class="map-image-list">';
               $.each(data.items,function(i,photo) {
                 photoHTML += '<li class="map-image-list-item">';
-                photoHTML += '<a href="' + photo.link + '" class="map-image">';
-                photoHTML += '<img src="' + photo.media.m + '"></a></li>';
+                photoHTML += '<div class="map-image-container">';
+                photoHTML += '<a href="' + photo.link + '" class="map-image-link">';
+                photoHTML += '<img src="' + photo.media.m + '" class="map-image"></a></div></li>';
               }); // end each
               photoHTML += '</ul>';
               $('#map-half').html(photoHTML);

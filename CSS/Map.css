@@ -32,19 +32,55 @@ html {
 
 #map-half {
     width: 50%;
-    display: inline;
     height: 650px;
     background: url(../SiteImg/backgroundPattern/star.png);
     float:right;
     border-left: 1px solid black;
+    overflow: scroll;
+}
+
+.map-section {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .map-image-list {
   list-style: none;
+  margin: 0 auto;
+  padding: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
 }
 
 .map-image-list-item {
-  
+  float: center;
+  text-align: center;
+}
+
+.map-image-link {}
+
+.map-image-container {
+flex-grow: 1;
+margin: 2px;
+position: relative;
+height:150px;
+}
+
+.map-image {
+  /*height: 110px;
+  width: 110px;*/
+  object-fit: cover;
+  max-width: 100%;
+  min-width: 100%;
+  height: 150px;
+  vertical-align: bottom;
+  display: inline;
+
+  /*object-fit: cover;
+  overflow: hidden;
+  height: 110px;
+  flex-grow: 1;*/
 }
 
 
