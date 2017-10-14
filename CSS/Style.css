@@ -667,6 +667,23 @@ figure.mouseover-effect:hover h3, figure.mouseover-effect:hover p {
   font-size: .7em;
 }
 
+.phase-list {
+  list-style: none;
+  font-size: 1.3em;
+  font-family: 'Roboto', sans-serif;
+margin: 0px;
+padding: 15px;
+font-weight: 300;
+}
+
+.phase-list li:not(:last-child) {
+margin-bottom: 30px;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
 
 
 /* Contact */
