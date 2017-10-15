@@ -22,28 +22,26 @@ html {
 
 
 #map {
-    width: 50%;
+    width: 100%;
     display: inline-block;
     height: 650px;
-    background: url(../SiteImg/backgroundPattern/star.png);
+    /*background: url(../SiteImg/backgroundPattern/star.png);*/
     float:left;
-    border-right: 1px solid black;
+    /*border-right: 1px solid black;*/
 }
 
 #map-half {
-    width: 50%;
+    width: 100%;
     height: 650px;
-    background: url(../SiteImg/backgroundPattern/star.png);
+    /*background: url(../SiteImg/backgroundPattern/star.png);*/
     float:right;
-    border-left: 1px solid black;
+    /*border-left: 1px solid black;*/
     overflow: scroll;
 }
 
-/*.map-section {
-  display: flex;
-  flex-wrap: wrap;
-}*/
-
+.map-intro-text {
+  margin-top: 50%;
+}
 
 .map-images-container {
   display: flex;
@@ -106,11 +104,61 @@ flex-grow: 999999999;
   border-radius: 3px;
   padding: 10px;
   margin-top: -409px;
-  /*margin-left: -16em;*/
   line-height: 1.4;
   font-family: fantasy;
   font-size: 24px;
 }
+
+/* Legend */
+#map-legend {
+  background: #FFF;
+  margin: 12px;
+  font-size: 12px;
+  width: 160px;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  text-align: left;
+  font-family: Roboto,Arial,sans-serif;
+  -moz-user-select: none;
+  font-size: 11px;
+  padding: 8px;
+  border-radius: 2px;
+  background-clip: padding-box;
+  box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3);
+  border-left: 0px none;
+  position: absolute;
+  top: 370px;
+  left: 20px;
+}
+#map-legend p{
+  margin 0 0 0 0 !important;
+
+}
+h3.map-legend-headline{
+  font-size: 14px;
+  margin:0 0 4px 0 !important;
+  padding:0 !important;
+  text-align:center;
+}
+
+.map-legend-color {
+  height: 12px;
+  width: 12px;
+  margin-right: 3px;
+  float: left;
+  border-radius: 12px;
+  border: 1px solid black;
+  margin-top: 6px;
+}
+
+.map-legend-color-been {
+  background: #7E8AA7;
+}
+
+.map-legend-color-haventbeen {
+  background: #F7F7F7;
+}
+
 
 /**
  * Fade Up Animations
