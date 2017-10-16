@@ -95,6 +95,8 @@
           </div>
 
           <div id="map-half" class="text-xs-center">
+
+
           <span class="map-intro-text">Click a country I've visited to see pictures!</span>
 </div>
 
@@ -105,7 +107,7 @@
 
           <div class="col-lg-8 col-lg-offset-2 col-xs-12 text-xs-center bottompadding100">
 
-            <p class="lrgfont minuslineheight topmargin40">I love to travel. It keeps a person adapting, keeps you humble, and keeps life memorable. This is a map of the countries I have been to so far.</p>
+            <p class="lrgfont minuslineheight topmargin40">I love to travel. It keeps a person adapting, keeps you humble, and keeps life memorable. This is a map of the countries I have been to so far. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci labore optio eius minus, vitae cumque perspiciatis quis corporis tenetur magnam illo laborum et porro, possimus ad blanditiis voluptatem ullam distinctio molestias ratione tempora eligendi. Nesciunt reiciendis id veritatis atque facilis animi suscipit error quasi cum. Voluptatibus, adipisci, cumque. Asperiores odio dolorum animi excepturi dolor dolore autem ipsa delectus rerum perferendis laudantium aliquid tempore sint quod harum ipsum aperiam doloribus amet at nobis, repudiandae reprehenderit quis quidem! Ipsa reprehenderit obcaecati cupiditate id. Dolorum ullam nulla vel iure, molestias culpa aliquam in, ea quasi repellendus quaerat, accusantium dolores eum, eos tempora maiores velit facere explicabo commodi animi praesentium tenetur. Reiciendis veritatis vitae vero harum earum. Veritatis consequuntur deleniti sequi error ipsam numquam autem sed culpa accusamus placeat, unde fuga sunt consequatur, incidunt voluptas voluptatibus rem voluptate explicabo eius ipsum, architecto quasi porro tempora suscipit! Voluptate explicabo ex non laudantium ad, illum consequatur, eligendi neque itaque enim accusantium eveniet doloremque, at nisi, minima architecto magni beatae deleniti! Vitae nisi sint nobis commodi cumque ab reprehenderit distinctio incidunt doloremque itaque odit provident perspiciatis ducimus repellendus aut ad accusantium cupiditate reiciendis accusamus, error enim ipsum? Facere natus ipsum, fugiat eos recusandae, enim mollitia expedita sint quibusdam voluptatibus vitae in repudiandae eaque reprehenderit aut molestiae aliquid cumque quasi ut temporibus nam id obcaecati animi atque! Obcaecati iure quis nostrum repudiandae placeat aspernatur, eum non unde veniam ab similique! Laboriosam nulla nisi, quam animi magnam possimus eum quos quasi odit rerum non accusamus officiis debitis iusto vel enim, aliquid facere, ullam unde. Quos ex odit voluptatibus hic numquam eos ab labore, quo ut omnis, quisquam modi assumenda dolorum delectus vero debitis quia consectetur a ullam. Quaerat, aut inventore adipisci voluptates molestias dolorem dolores hic magnam vero sequi at minus corrupti. Odio pariatur quo animi qui unde impedit nesciunt nihil quas eum ipsam dolor laborum alias officiis placeat, quis odit, sapiente molestiae ducimus soluta perspiciatis error dolore. Est, quas officia. Esse reprehenderit illo voluptates natus veritatis distinctio ipsa, velit ratione? Voluptates eveniet, quidem dolorem, pariatur qui veniam facilis libero perspiciatis quasi quas repellendus dolore necessitatibus dolor repudiandae error suscipit quis magnam. Esse perferendis corporis debitis labore illum consequuntur aspernatur sapiente similique temporibus et odit iure, molestias unde neque repellendus dignissimos est nisi? Aperiam laboriosam repellat iste natus, rerum possimus, error sint perferendis vero assumenda officiis facere, nihil velit. Quam cum neque vel dolores tenetur voluptas consectetur harum soluta voluptatem non labore rem dignissimos quo vero autem quod blanditiis saepe eius, illo officiis libero eaque. A, laudantium commodi natus modi quis tempora illum omnis neque quidem at. Deserunt labore eos, magni ad maxime quidem asperiores recusandae possimus libero beatae quos placeat distinctio hic dolorum at sunt excepturi fugit odio velit, consequatur facilis molestiae veniam. Eaque enim natus culpa perspiciatis reiciendis consequatur id facilis minima iusto atque nisi quisquam dolorum sapiente nobis corporis fuga officia quod quidem blanditiis nam aliquid, possimus neque, quo! Sint, placeat, provident iusto molestiae fugit ex. Natus non, odio deleniti molestiae cum laboriosam at qui quisquam, maiores modi assumenda sequi labore totam consequatur, enim. Ratione a aliquam, porro soluta eveniet eius quo alias velit aspernatur, inventore magnam fuga autem sapiente aut quia consectetur hic rerum labore. Commodi placeat odio vitae deleniti autem deserunt, consequuntur dicta veritatis iure doloribus quos iste laudantium pariatur veniam molestiae quo, necessitatibus accusamus incidunt impedit odit cupiditate. Nihil libero impedit consectetur aut illum delectus qui ut praesentium perferendis. Ducimus nostrum, officiis ut iste voluptatem corporis possimus labore eveniet omnis, vel et repudiandae reiciendis aspernatur, minima repellat dolor nobis veritatis laborum repellendus nam laboriosam deserunt optio voluptatum. Perferendis placeat nemo, excepturi quia quaerat!</p>
             <div class="text-xs-center topmargin20">
               <a href="https://medium.com/tuckertriggs" target="_blank" rel="noopener" class="expand btn bigbtn shadow margin3 topmargin40">
                 <p class="no-indent nopadding center-block">Go to Blog</p>
@@ -499,7 +501,7 @@
         "code": "KGZ"
       },
       {
-        "name": "Lao People's Democratic Republic",
+        "name": "Laos",
         "code": "LAO"
       },
       {
@@ -877,7 +879,8 @@
             };
             function displayPhotos(data) {
               console.log(data);
-              var photoHTML = '<section class="map-images-container">';
+              var photoHTML = '<h2 class="text-xs-center photos-from-text toppadding15 bottompadding15">Photos from ' + country + '</h2>';
+              photoHTML += '<section class="map-images-container">';
               $.each(data.items,function(i,photo) {
                 photoHTML += '<div class="map-image-container">';
                 photoHTML += '<a href="' + photo.link + '" class="map-image-link">';
@@ -885,6 +888,9 @@
               }); // end each
               photoHTML += '</section>';
               $('#map-half').html(photoHTML);
+              document.querySelector('.photos-from-text').scrollIntoView({
+                behavior: 'smooth', block: 'start'
+              });
             }
             $.getJSON(flickerAPI, flickrOptions, displayPhotos);
           }
