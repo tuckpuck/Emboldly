@@ -866,20 +866,24 @@
         var currentCode = event.currentTarget.classList[1];
         for (let i = 0; i < countryCodes.length; i++) {
           if (countryCodes[i].code == currentCode) {
-            // let country = $(".country-text").text(countryCodes[i].name);
             let country = countryCodes[i].name;
             console.log(country);
             $(".country-text").show();
 
             var flickerAPI = "https://www.flickr.com/services/feeds/photos_public.gne?format=json&id=136839724@N02&jsoncallback=?";
-            // var country = $(this).text();
             var flickrOptions = {
               tags: country,
               format: "json"
             };
             function displayPhotos(data) {
               console.log(data);
-              var photoHTML = '<h2 class="text-xs-center photos-from-text toppadding15 bottompadding15">Photos from ' + country + '</h2>';
+              // if there are no photos
+              if(data.items.length === 0) {
+                 let photoHTML = '<h2 class="text-xs-center photos-from-text toppadding15 bottompadding15">Sorry, no photos to display from ' + country + '</h2>';
+                 $('#map-half').html(photoHTML);
+              } else {
+                // If there are photos, display
+              let photoHTML = '<h2 class="text-xs-center photos-from-text toppadding15 bottompadding15">Photos from ' + country + '</h2>';
               photoHTML += '<section class="map-images-container">';
               $.each(data.items,function(i,photo) {
                 photoHTML += '<div class="map-image-container">';
@@ -888,6 +892,7 @@
               }); // end each
               photoHTML += '</section>';
               $('#map-half').html(photoHTML);
+            }
               document.querySelector('.photos-from-text').scrollIntoView({
                 behavior: 'smooth', block: 'start'
               });
