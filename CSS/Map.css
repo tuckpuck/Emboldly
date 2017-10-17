@@ -71,6 +71,15 @@ flex-grow: 999999999;
   vertical-align: bottom;
 }
 
+.scroll-to-map {
+  cursor: pointer;
+}
+
+.scroll-to-map:hover {
+  text-decoration: underline;
+}
+
+
 /**
  * Popup Card
  */

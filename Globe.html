@@ -891,16 +891,24 @@
                 photoHTML += '<img src="' + photo.media.m + '" class="map-image"></a></div>';
               }); // end each
               photoHTML += '</section>';
+              photoHTML += '<span class="scroll-to-map text-xs-center">^ back to map ^</span>';
               $('#map-half').html(photoHTML);
             }
               document.querySelector('.photos-from-text').scrollIntoView({
                 behavior: 'smooth', block: 'start'
               });
+              $(".scroll-to-map").on("click", function(event) {
+              document.querySelector('.main-header').scrollIntoView({
+                behavior: 'smooth', block: 'start'
+              });
+            });
             }
             $.getJSON(flickerAPI, flickrOptions, displayPhotos);
           }
         }
       });
+
+
 
       $("path").on("mouseover", function(event) {
              var currentCode = event.currentTarget.classList[1];
