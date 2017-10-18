@@ -322,7 +322,14 @@
   .port-info-panel {
     width: 500px;
     margin-top: -20px;
-        margin-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .port-under-panel{
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .port-item a figure img {
     width: 600px;

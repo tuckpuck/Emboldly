@@ -488,8 +488,16 @@ span {
 }
 
 .port-info-panel {
-  width: 240px;
+  width: 275px;
   margin: 75px 10px 10px;
+  line-height: 1.5;
+  font-weight: bold;
+  font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.port-under-panel {
+  width: 400px;
+  margin: 10px auto 0px;
   line-height: 1.5;
   font-weight: bold;
   font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
