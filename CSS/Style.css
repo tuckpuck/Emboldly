@@ -705,6 +705,23 @@ i {
   vertical-align: middle;
 }
 
+.contactIcon {
+  height: 90px;
+  padding: 12px 12px;
+  border-radius: 11px;
+  margin: 1px;
+}
+
+.contactIcon:hover {
+  background-color: rgb(179, 180, 180);
+}
+.about-social {
+  max-height: 90px;
+  max-width: 90px;
+  padding: 20px;
+}
+
+
 
 /* About */
 
@@ -1145,27 +1162,9 @@ bottommargin35 {
   width: 75px;
 }
 
-.contactIcon {
-  height: 85px;
-  padding: 12px 12px;
-  border-radius: 11px;
-  margin: 1px;
-}
-
-.contactIcon:hover {
-  background-color: rgb(179, 180, 180);
-}
-
 .wheat {
   color: wheat;
 }
-
-.about-social {
-  max-height: 90px;
-  max-width: 90px;
-  padding: 20px;
-}
-
 
 /* Transitions */
 
@@ -1242,6 +1241,14 @@ bottommargin35 {
 
 .rotateleft360:hover {
   transform: rotate(-360deg);
+}
+
+.expandsizesmall {
+  transition: all 1s ease;
+}
+
+.expandsizesmall:hover {
+  transform: scale(1.05);
 }
 
 .expandsize {
