@@ -14,7 +14,7 @@ $(function () {
 				 } else {
 					 visibleSm = ' visible-sm';
 				 }
-				output += '<div class="col-sm-6 col-md-4' + visibleSm + '">';
+				output += '<div class="col-md-12 col-lg-4' + visibleSm + '">';
 				output += '<div class="blog-post"><header>';
 				var tagIndex = item.description.indexOf('<img'); // Find where the img tag starts
 				var srcIndex = item.description.substring(tagIndex).indexOf('src=') + tagIndex; // Find where the src attribute starts
