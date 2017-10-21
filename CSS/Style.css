@@ -696,13 +696,16 @@ figure.mouseover-effect:hover h3, figure.mouseover-effect:hover p {
 
 
 /* Contact */
-
-
 /********************/
 
 i {
   color: #111212;
   vertical-align: middle;
+}
+
+.contact-div {
+  display: inline-block;
+  margin: 0px 10px;
 }
 
 .contactIcon {
