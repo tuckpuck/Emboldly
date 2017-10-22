@@ -320,9 +320,15 @@
     margin-bottom: 20px
   }
   .port-info-panel {
+    border: none;
+    height: 150px;
     width: 500px;
-    margin-top: -20px;
-    margin-bottom: 0px;
+    padding: 0px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+  }
+  .small-port-item {
+    margin: 0px;
   }
   .port-under-panel{
     width: 500px;
