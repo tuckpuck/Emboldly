@@ -491,6 +491,11 @@ span {
   margin-left: -10px;
 }
 
+.port-explanation {
+  font-size: 17px;
+  margin-top: 30px;
+}
+
 .port-info-panel {
   width: 300px;
     height: 500px;
@@ -592,7 +597,6 @@ span {
 
 .grid figure p {
   letter-spacing: 1px;
-  font-size: 68.5%;
 }
 
 figure.mouseover-effect:hover img {
@@ -1408,7 +1412,7 @@ bottommargin35 {
 }
 
 .expandsizesmall:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
 .expandsize {

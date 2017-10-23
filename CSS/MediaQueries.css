@@ -15,7 +15,7 @@
 
 /*// Extra large devices (large desktops, 75em and up)*/
 
-
+/*Custom Media Queries*/
 /* very very small, not a bootstrap size */
 
 @media (max-width: 26em) {
@@ -25,7 +25,18 @@
   }
 }
 
+@media (max-width: 68.5em) {
+.port-info-panel {
+  border: none;
+  height: 150px;
+  width: 500px;
+  padding: 0px;
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+}
 
+/*Bootstrap Media Queries*/
 /* XS Size*/
 
 @media (max-width: 34em) {
@@ -318,14 +329,6 @@
   }
   .babycircle {
     margin-bottom: 20px
-  }
-  .port-info-panel {
-    border: none;
-    height: 150px;
-    width: 500px;
-    padding: 0px;
-    margin-top: -10px;
-    margin-bottom: 15px;
   }
   .small-port-item {
     margin: 0px;
