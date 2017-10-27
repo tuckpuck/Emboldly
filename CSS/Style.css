@@ -1218,6 +1218,10 @@ bottommargin35 {
   text-decoration: none;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 
 /* Button */
 
