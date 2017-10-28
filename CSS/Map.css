@@ -32,15 +32,8 @@ html {
 
 #map-half {
     width: 100%;
-    /*max-height: 400px;*/
-    /*background: url(../SiteImg/backgroundPattern/star.png);*/
     float:right;
-    /*border-left: 1px solid black;*/
     overflow: scroll;
-}
-
-.map-intro-text {
-  margin-top: 50%;
 }
 
 .photos-from-text {

@@ -115,10 +115,6 @@ span {
   z-index: 10;
 }
 
-#emboldlyholder {
-  display: block;
-}
-
 #name {
   color: wheat;
   font-family: 'Libre Baskerville', serif!important;
@@ -1177,21 +1173,6 @@ bottommargin35 {
 .bottommargin80 {
   margin-bottom: 80px;
 }
-
-
-/* Line Height */
-
-
-/***********/
-
-.addlineheight {
-  line-height: 2.5;
-}
-
-.minuslineheight {
-  line-height: 2.35;
-}
-
 
 /* Display */
 
