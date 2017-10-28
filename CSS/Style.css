@@ -26,7 +26,6 @@ body {
   font-family: 'Roboto', sans-serif;
   line-height: 2.4;
   color: #111212;
-  /*color: white;*/
   font-size: 16px;
 }
 
@@ -102,10 +101,7 @@ span {
   font-size: 1.31rem;
 }
 
-
 /* Header */
-
-
 /********/
 
 .main-header {
@@ -137,10 +133,7 @@ span {
   color: white;
 }
 
-
 /* Navigation Styling */
-
-
 /********************/
 
 .main-nav {
@@ -161,6 +154,9 @@ span {
   position: relative;
   z-index: 1;
   float: none;
+  -webkit-box-shadow: 0px -1px 12px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px -1px 12px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px -1px 12px 0px rgba(0, 0, 0, 0.75);
 }
 
 .navbuttonarrow {

@@ -1,43 +1,108 @@
-/*// Extra small devices (portrait phones, less than 34em)*/
+/* extra small (phones, less than 34em / 544px)
+small (phones, 34 - 48em / 544 to 768px)
+medium (tablets, 48 - 62em / 786 to 992px)
+large (desktops, 62 - 75em / 992 to 1200px)
+extra large (large desktops, above 75em / 1200px)*/
 
 
-/*// No media query since this is the default in Bootstrap*/
+/* custom media queries */
 
 
-/*// Small devices (landscape phones, 34em and up)*/
-
-
-/*// Medium devices (tablets, 48em and up)*/
-
-
-/*// Large devices (desktops, 62em and up)*/
-
-
-/*// Extra large devices (large desktops, 75em and up)*/
-
-/*Custom Media Queries*/
-/* very very small, not a bootstrap size */
+/*under 416px*/
 
 @media (max-width: 26em) {
+  /* make facebook link fit on two lines */
   .ck-facebook-iframe {
     max-width: 250px;
     height: 40px;
   }
 }
 
+/*under 1096px*/
+
 @media (max-width: 68.5em) {
-.port-info-panel {
-  border: none;
-  height: 150px;
-  width: 500px;
-  padding: 0px;
-  margin-top: -10px;
-  margin-bottom: 15px;
-}
+  /* make port info border go away, info below */
+  .port-info-panel {
+    border: none;
+    height: 150px;
+    width: 500px;
+    padding: 0px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+  }
 }
 
-/*Bootstrap Media Queries*/
-/* XS Size*/
+
+/* bootstrap media query sizes */
+/***** between sizes *****/
+
+
+/* small, 544px to 768px */
+
+@media (min-width: 34em) and (max-width: 48em) {
+  #copyright {
+    float: left;
+    margin-left: 0px;
+  }
+}
+
+
+/* medium, 786px to 992px - Tablet Size */
+
+@media (min-width: 48em) and (max-width: 62em) {
+  #emboldlyholder {
+    align-content: center;
+    justify-content: center;
+  }
+  h1#name {
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    margin-bottom: -18px;
+  }
+  .main-navholder {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  .main-nav {
+    align-items: center;
+    align-self: center;
+    text-align: center;
+  }
+}
+
+
+/* large, 992px to 1200px */
+
+@media (min-width: 62em) and (max-width: 75em) {
+  #name {
+    margin-right: 120px;
+    margin-left: 20px;
+    display: inline-block;
+  }
+  .main-nav {
+    display: inline-block;
+  }
+  .main-nav {
+    clear: left;
+    padding-bottom: 27px;
+  }
+  .header-container {
+    padding-top: 5px;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+/***** under sizes *****/
+
+
+/* extra small, below 544px */
 
 @media (max-width: 34em) {
   #copyright {
@@ -51,7 +116,6 @@
   }
   .social-icon-small {
     max-height: 110px;
-    /*    padding: 10px;*/
     margin: 2px;
   }
   .flickr {
@@ -63,20 +127,7 @@
 }
 
 
-/* S Size */
-
-@media (min-width: 34em) and (max-width: 48em) {
-  #copyright {
-    float: left;
-    margin-left: 0px;
-  }
-}
-
-
-/* XS and S Size - Mobile*/
-
-
-/***************/
+/* under tablet, below 786px*/
 
 @media (max-width: 48em) {
   .mainheader {
@@ -125,108 +176,8 @@
     margin-left: 20px;
   }
   .port-image {
-    /*max-width: auto !important;*/
     height: 100% !important;
   }
-}
-
-
-/* Medium - Tablet Size */
-
-
-/**************/
-
-@media (min-width: 48em) and (max-width: 62em) {
-  #emboldlyholder {
-    align-content: center;
-    justify-content: center;
-  }
-  h1#name {
-    align-items: center;
-    align-self: center;
-    text-align: center;
-  }
-  .main-navholder {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-  }
-  .main-nav {
-    align-items: center;
-    align-self: center;
-    text-align: center;
-  }
-}
-
-
-/* Large */
-
-@media (min-width: 62em) and (max-width: 75em) {
-  #name {
-    margin-right: 120px;
-    margin-left: 20px;
-    display: inline-block;
-  }
-  .main-nav {
-    display: inline-block;
-  }
-  .main-nav {
-    padding: auto;
-    clear: left;
-    padding-bottom: 25px;
-  }
-  .header-container {
-    padding-top: 5px;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-
-/* Full Size - Extra Large Desktop and Up */
-
-
-/***********/
-
-@media (min-width: 75em) {
-  #name {
-    margin-right: 234px;
-  }
-  .main-nav {
-    padding: auto;
-    clear: left;
-    padding-bottom: 25px;
-  }
-  .header-container {
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-
-/*///////////////////////////////////////////////////////*/
-
-
-/* Everything Under Small Size */
-
-
-/***********/
-
-@media (max-width: 34em) {}
-
-
-/* Everything Under Medium Tablet Size */
-
-
-/***********/
-
-@media (max-width: 48em) {
   .main-nav li {
     padding-top: 9px;
   }
@@ -262,70 +213,21 @@
 }
 
 
-/* Everything Higher Than Medium Tablet Size */
-
-
-/*****************/
-
-@media (min-width: 48em) {
-  .main-nav {
-    margin-left: 7px;
-    display: inline-flex;
-  }
-  .main-nav li a {
-    display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-  }
-  .nvbtnlrg:hover {
-    color: #412e0a;
-    letter-spacing: 0.2px;
-    position: relative;
-    z-index: 2;
-  }
-  a.nvbtnlrg {
-    width: 100px;
-    height: 50px;
-    margin: 0px 3px;
-    vertical-align: middle;
-    text-align: center;
-    top: 14px;
-    -webkit-box-shadow: 0px -1px 12px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px -1px 12px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px -1px 12px 0px rgba(0, 0, 0, 0.75);
-  }
-  a.navbuttonarrow {
-    width: 25px;
-    height: 50px;
-    margin: 0px 3px;
-    vertical-align: middle;
-    text-align: center;
-    top: 14px;
-    -webkit-box-shadow: 0px -1px 12px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px -1px 12px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px -1px 12px 0px rgba(0, 0, 0, 0.75);
-  }
-  #contactpic {
-    margin-left: -26px;
-  }
-}
-
-
-/* Everything Under Large Size */
-
-
-/***********/
+/* under large, below 992px */
 
 @media (max-width: 62em) {
+  #name {
+    margin-bottom: -8px;
+    margin-top: 20px;
+  }
+  .main-nav {
+    padding: 0px 0px;
+  }
   .left-panel {
     margin-left: -10px;
   }
   .port-item {
     margin: 30px 0px;
-  }
-  #name {
-    margin-bottom: -8px;
   }
   .babycircle {
     margin-bottom: 20px
@@ -333,7 +235,7 @@
   .small-port-item {
     margin: 0px;
   }
-  .port-under-panel{
+  .port-under-panel {
     width: 500px;
     margin-top: 10px;
     margin-bottom: 0px;
@@ -347,10 +249,7 @@
 }
 
 
-/* Everything Under Extra Large Size */
-
-
-/***********/
+/* under extra large, below 1200px */
 
 @media (max-width: 75em) {
   .testamonialtopmargin {
@@ -377,5 +276,72 @@
   }
   .main-footer {
     height: 100%;
+  }
+}
+
+
+/***** over sizes *****/
+
+
+/* over tablet, above 768px */
+
+@media (min-width: 48em) {
+  .main-nav {
+    margin-left: 7px;
+    display: inline-flex;
+  }
+  .main-nav li a {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .nvbtnlrg:hover {
+    color: #412e0a;
+    letter-spacing: 0.2px;
+    position: relative;
+    z-index: 2;
+  }
+  a.nvbtnlrg {
+    width: 100px;
+    height: 50px;
+    margin: 0px 3px;
+    vertical-align: middle;
+    text-align: center;
+    top: 14px;
+  }
+  a.navbuttonarrow {
+    width: 25px;
+    height: 50px;
+    margin: 0px 3px;
+    vertical-align: middle;
+    text-align: center;
+    top: 14px;
+    -webkit-box-shadow: 0px -1px 12px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px -1px 12px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px -1px 12px 0px rgba(0, 0, 0, 0.75);
+  }
+  #contactpic {
+    margin-left: -26px;
+  }
+}
+
+
+/* extra large, above 1200px */
+
+@media (min-width: 75em) {
+  #name {
+    margin-right: 234px;
+  }
+  .main-nav {
+    clear: left;
+    padding-bottom: 27px;
+  }
+  .header-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
