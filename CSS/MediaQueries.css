@@ -196,12 +196,6 @@ extra large (large desktops, above 75em / 1200px)*/
   #imagelightbox-caption {
     display: none;
   }
-  #map {
-    display: none;
-  }
-  .country-text {
-    display: none;
-  }
   .abouttext {
     margin-top: 50px;
   }

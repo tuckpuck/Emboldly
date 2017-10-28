@@ -111,10 +111,14 @@ flex-grow: 999999999;
   display: none;
   border-radius: 3px;
   padding: 10px;
-  margin-top: -780px;
   line-height: 1.4;
   font-family: fantasy;
   font-size: 24px;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+ right: 0;
+ margin: 0 auto;
 }
 
 /* Legend */
