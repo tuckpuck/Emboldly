@@ -29,6 +29,14 @@ extra large (large desktops, above 75em / 1200px)*/
     padding: 0px;
     margin-top: -10px;
     margin-bottom: 15px;
+    background-color: inherit;
+  }
+  .port-item a figure img {
+    width: 600px;
+    height: 350px;
+  }
+  .left-panel {
+    margin-left: -10px;
   }
 }
 
@@ -210,12 +218,6 @@ extra large (large desktops, above 75em / 1200px)*/
   .main-nav {
     padding: 0px 0px;
   }
-  .left-panel {
-    margin-left: -10px;
-  }
-  .port-item {
-    margin: 30px 0px;
-  }
   .babycircle {
     margin-bottom: 20px
   }
@@ -228,10 +230,6 @@ extra large (large desktops, above 75em / 1200px)*/
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-  }
-  .port-item a figure img {
-    width: 600px;
-    height: 350px;
   }
 }
 
