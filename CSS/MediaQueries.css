@@ -31,6 +31,11 @@ extra large (large desktops, above 75em / 1200px)*/
     margin-bottom: 15px;
     background-color: inherit;
   }
+  .port-under-panel {
+    border: none;
+    background-color: inherit;
+
+  }
   .port-item a figure img {
     width: 600px;
     height: 350px;

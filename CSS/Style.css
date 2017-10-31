@@ -493,21 +493,30 @@ span {
     height: 420px;
     padding-top: 115px;
     line-height: 1.5;
+    /*margin-left: 14px;*/
     font-weight: bold;
     font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
     border-top: 1px solid #c1c1c1;
     border-right: 1px solid #c1c1c1;
     border-bottom: 1px solid #c1c1c1;
+    /*border-left: 1px solid #c1c1c1;*/
     transition: transform 0.35s;
     background-color: #eee;
 }
 
 .port-under-panel {
-  width: 400px;
-  margin: 10px auto 0px;
+  width: 472px;
+  margin: -14px auto 0px;
+  padding-top: 24px;
   line-height: 1.5;
   font-weight: bold;
   font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-right: 1px solid #c1c1c1;
+  border-bottom: 1px solid #c1c1c1;
+  border-left: 1px solid #c1c1c1;
+  /*border-top: 1px solid #c1c1c1;*/
+  transition: transform 0.35s;
+  background-color: #eee;
 }
 
 .panel-description {
