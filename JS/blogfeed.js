@@ -21,7 +21,7 @@ $(function () {
 				var srcStart = srcIndex + 5; // Find where the actual image URL starts; 5 for the length of 'src="'
 				var srcEnd = item.description.substring(srcStart).indexOf('"') + srcStart; // Find where the URL ends
 				var src = item.description.substring(srcStart, srcEnd); // Extract just the URL
-				output += '<div class="blog-element"><a href="'+ item.link + '"><img class="img-responsive" src="' + src + '" width="360px" height="240px"></div></header>';
+				output += '<div class="blog-element"><a href="'+ item.link + '"><img class="img-responsive" src="' + src + '" width="250px" height="166px"></div></header>';
 				output += '<div class="blog-content"><h4>' + item.title + '</a></h4>';
 				output += '<div class="post-meta"><span>By ' + item.author + '</span></div>';
 				output += '</div></div></div>';
