@@ -336,32 +336,45 @@
             console.log(country);
             $(".country-text").show();
 
-            var flickerAPI = "https://www.flickr.com/services/feeds/photos_public.gne?format=json&id=136839724@N02&jsoncallback=?";
+            var flickerAPI = "http://api.flickr.com/services/rest/";
             var flickrOptions = {
-              tags: country,
-              format: "json"
+              // tags: country,
+              // format: "json"
+              method: 'flickr.photos.search',
+                  user_id: '136839724@N02',
+                  api_key: 'e94ed6119afae842434d2aaf7e636558',
+                  privacy_filter: 1,
+                  tags: country,
+                  extras: 'url_m',
+                  per_page: 100,
+                  format: 'json',
+                  nojsoncallback: 1
             };
             function displayPhotos(data) {
               console.log(data);
               // if there are no photos
-              if(data.items.length === 0) {
+              if(data.photos.photo.length === 0) {
                  let photoHTML = '<h2 class="text-xs-center photos-from-text toppadding15 bottompadding15">Sorry, no photos to display from ' + country + '</h2>';
                  $('#map-half').html(photoHTML);
               } else {
                 // If there are photos, display
               let photoHTML = '<h2 class="text-xs-center photos-from-text toppadding15 bottompadding15">My Photos from ' + country + '</h2>';
               photoHTML += '<section class="map-images-container">';
-              $.each(data.items,function(i,photo) {
+              $.each(data.photos.photo,function(i,photo) {
                 photoHTML += '<div class="map-image-container">';
-                photoHTML += '<a href="' + photo.link + '" class="map-image-link">';
-                photoHTML += '<img src="' + photo.media.m + '" class="map-image"></a></div>';
+                photoHTML += '<a href="' + photo.url_m + '" class="map-image-link">';
+                photoHTML += '<img src="' + photo.url_m + '" class="map-image"></a></div>';
               }); // end each
               photoHTML += '</section>';
               photoHTML += '<span class="scroll-to-map text-xs-center">^ back to map ^</span>';
               $('#map-half').html(photoHTML);
+              console.log(photoHTML);
             }
             document.querySelector('.photos-from-text').scrollIntoView({ behavior: 'smooth', block: 'start' }); $(".scroll-to-map").on("click",
-              function(event) { document.querySelector('.main-header').scrollIntoView({ behavior: 'smooth', block: 'start' }); }); } $.getJSON(flickerAPI, flickrOptions, displayPhotos); } } }); $("path").on("mouseover", function(event) { var currentCode
+              function(event) { document.querySelector('.main-header').scrollIntoView({ behavior: 'smooth', block: 'start' });
+             });
+            }
+             $.getJSON(flickerAPI, flickrOptions, displayPhotos); } } }); $("path").on("mouseover", function(event) { var currentCode
               = event.currentTarget.classList[1];
               for (let i = 0; i < countryCodes.length; i++) {
                 if (countryCodes[i].code==currentCode) {
