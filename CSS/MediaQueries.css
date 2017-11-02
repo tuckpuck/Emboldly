@@ -204,6 +204,13 @@ extra large (large desktops, above 75em / 1200px)*/
   .abouttext {
     margin-top: 50px;
   }
+  .port-pic {
+    display: ;
+  }
+
+  .port-intro {
+    display: inherit;
+  }
 }
 
 

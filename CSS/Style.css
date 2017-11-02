@@ -243,11 +243,20 @@ span {
 
 /*Home Page*/
 
+.port-pic {
+  vertical-align: middle;
+  display: inline;
+}
+
+.port-intro {
+  line-height: 2;
+  display: inline-block;
+  max-width: 800px;
+  overflow: visible;
+  vertical-align: middle;
+}
 
 /********************/
-
-
-/*****************/
 
 
 /* Lightbox */
@@ -1144,6 +1153,9 @@ bottommargin35 {
 
 
 /***********/
+.clearboth {
+  clear: both;
+}
 
 .dontdisplay {
   display: none;
@@ -1151,6 +1163,10 @@ bottommargin35 {
 
 .inline {
   display: inline;
+}
+
+.inline-block {
+  display: inline-block;
 }
 
 .block {
@@ -1265,6 +1281,12 @@ bottommargin35 {
   border-radius: 50%;
   height: 190px;
   width: 190px;
+}
+
+.circle85 {
+  border-radius: 50%;
+  height: 85px;
+  width: 85px;
 }
 
 .babycircle {
@@ -1409,7 +1431,7 @@ bottommargin35 {
 
 .circular {
   width: 13em;
-  height 0em;
+  height: 0em;
   margin: 3em auto 0;
   margin-top: -214px;
   font-size: 16px;
@@ -1422,7 +1444,7 @@ bottommargin35 {
 }
 
 .testamonial {
-  line-height: 2;
+  line-height: 1.8;
 }
 
 .testamonialtopmargin {
