@@ -217,12 +217,12 @@ span {
 }
 
 .social-icon-small {
-  max-height: 47px;
-  max-width: 47px;
+  max-height: 50px;
+  max-width: 50px;
   display: inline-block;
   float: right;
-  padding-right: 12.5px;
-  padding-left: 12.5px;
+  padding-right: 10px;
+  padding-left: 10px;
   text-align: center;
 }
 
@@ -236,13 +236,11 @@ span {
   vertical-align: middle;
   display: inline-block;
   max-width: 150px;
-  margin-left: 285px;
+  margin-left: 300px;
   font-size: 1em;
 }
 
-
 /*Home Page*/
-
 .port-pic {
   vertical-align: middle;
   display: inline;
