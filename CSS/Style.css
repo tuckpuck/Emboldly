@@ -26,13 +26,10 @@ body {
 }
 
 .main-area {
+  background: url(../SiteImg/backgroundPattern/snow.png);
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-}
-
-.alpha {
-  background: url(../SiteImg/backgroundPattern/snow.png);
 }
 
 /* heirarchy, font and font Sizes */
@@ -86,7 +83,6 @@ span {
 
 /* header */
 .main-header {
-  /*background-image: url(../SiteImg/stardust.png);*/
   background-color: rgb(31, 49, 59);
   padding: .7em 0;
   width: 100%;
@@ -171,10 +167,10 @@ span {
   height: 66px;
   background-color: rgb(31, 49, 59);
   width: 100%;
-  font-size: 13px;
+  font-size: 14px;
   text-align: center;
   clear: both;
-  padding: 1.3em 0;
+  padding: 1.2em 0;
   color: #fbfbfb;
   -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
@@ -204,7 +200,6 @@ span {
 
 #copyright {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
-  vertical-align: middle;
   display: inline-block;
   max-width: 150px;
   margin-left: 300px;
@@ -214,13 +209,12 @@ span {
 /* home index portfolio */
 .port-pic {
   vertical-align: middle;
-  display: inline;
 }
 
 .port-intro {
   line-height: 2;
   display: inline-block;
-  max-width: 800px;
+  max-width: 660px;
   overflow: visible;
   vertical-align: middle;
 }
@@ -409,6 +403,14 @@ figure.mouseover-effect:hover h3, figure.mouseover-effect:hover p {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
+}
+
+.testamonial {
+  line-height: 1.8;
+}
+
+.testamonialtopmargin {
+  margin-top: 20px;
 }
 
 /* services */
@@ -808,7 +810,7 @@ i {
 }
 
 /* padding */
-.contenttoppadding {
+.content-top-padding {
   padding-top: 80px;
 }
 
@@ -930,12 +932,12 @@ i {
   margin-top: 60px;
 }
 
-.negtopmargin60 {
-  margin-top: -60px;
-}
-
 .nomargin {
   margin: 0px;
+}
+
+.margin3 {
+  margin: 3px;
 }
 
 .topmargin5 {
@@ -1100,13 +1102,6 @@ i {
   width: 130px;
   height: 70px;
   vertical-align: middle;
-}
-
-.margin3 {
-  margin-top: 3px;
-  margin-bottom: 3px;
-  margin-right: 3px;
-  margin-left: 3px;
 }
 
 /* shadow */
@@ -1288,14 +1283,6 @@ i {
   -webkit-animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
-}
-
-.testamonial {
-  line-height: 1.8;
-}
-
-.testamonialtopmargin {
-  margin-top: 20px;
 }
 
 .icon-small {

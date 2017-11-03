@@ -188,7 +188,7 @@ extra large (large desktops, above 75em / 1200px)*/
   div.dropdown {
     display: none;
   }
-  .contenttoppadding {
+  .content-top-padding {
     padding-top: 40px;
   }
   #name {
