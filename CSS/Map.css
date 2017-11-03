@@ -5,12 +5,6 @@
  * http://sallar.me
  */
 
-body,
-html {
-    /*	height: 100%;*/
-    /*	-webkit-font-smoothing: antialiased;*/
-}
-
 .mapdiv {
   padding-left: 0px !important;
   padding-right: 0px !important;
@@ -20,14 +14,12 @@ html {
   /*min-width: 100%;*/
 }
 
-
 #map {
     width: 100%;
     display: inline-block;
     height: 650px;
     /*background: url(../SiteImg/backgroundPattern/star.png);*/
     float:left;
-    /*border-right: 1px solid black;*/
 }
 
 #map-half {
@@ -71,7 +63,6 @@ flex-grow: 999999999;
 .scroll-to-map:hover {
   text-decoration: underline;
 }
-
 
 /**
  * Popup Card
