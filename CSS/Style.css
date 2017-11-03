@@ -181,6 +181,7 @@ span {
   display: inline-block;
   float: right;
   vertical-align: middle;
+  margin-top: -8px;
 }
 
 .social-icon-small {
@@ -190,6 +191,7 @@ span {
   float: right;
   padding-right: 10px;
   padding-left: 10px;
+  padding-top: 8px;
   text-align: center;
 }
 

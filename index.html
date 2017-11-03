@@ -78,7 +78,7 @@
       <div class="col-md-8 col-md-offset-2 text-xs-center">
 
       <div class="text-xs-center topmargin40 bottommargin20 port-intro-div">
-        <img src="Img/bridgesquare.jpg" alt="" class="circle85 port-pic"><p class="port-intro">I'm Tucker, an independent web developer. I build practical websites for clients. Check out my portfolio below, or connect with me <a href="connect.html" class="underline">here</a>.</p>
+        <img src="Img/bridgesquare.jpg" alt="" class="circle85 port-pic"><p class="port-intro lrgfont">I'm Tucker, an independent web developer. I build practical websites for clients. Check out my portfolio below, or connect with me <a href="connect.html" class="underline">here</a>.</p>
       </div>
     </div>
       <div class="grid flex clearboth">
@@ -222,12 +222,12 @@
       <div class="footer-respond">
         <div id="copyright"> 2017 &copy; Tucker Triggs </div>
         <div class="footer-social">
-          <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/tuckertriggs/"><img src="SiteImg/icons/flickr.svg" alt="Flickr" class="social-icon-small"></a>
-          <a target="_blank" rel="noopener" href="https://twitter.com/triggsmetatech"><img src="SiteImg/icons/twitter.svg" alt="Twitter" class="social-icon-small"></a>
-          <a target="_blank" rel="noopener" href="http://www.facebook.com/swagdaddypurple"><img src="SiteImg/icons/facebook.svg" alt="Facebook" class="social-icon-small"></a>
-          <a target="_blank" rel="noopener" href="http://www.linkedin.com/in/tuckertriggs"><img src="SiteImg/icons/linkedin.svg" alt="LinkedIn" class="social-icon-small"></a>
-          <a target="_blank" rel="noopener" href="https://www.github.com/tuckpuck"><img src="SiteImg/icons/github.svg" alt="Github" class="social-icon-small"></a>
-          <a target="_blank" rel="noopener" href="instagram.html"><img src="SiteImg/icons/instagram.svg" alt="Instagram" class="social-icon-small"></a>
+          <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/tuckertriggs/"><img src="SiteImg/icons/flickr.svg" alt="Flickr" class="social-icon-small"  data-toggle="tooltip" data-placement="top" title="Flickr"></a>
+          <a target="_blank" rel="noopener" href="https://twitter.com/triggsmetatech"><img src="SiteImg/icons/twitter.svg" alt="Twitter" class="social-icon-small" data-toggle="tooltip" data-placement="top" title="Twitter"></a>
+          <a target="_blank" rel="noopener" href="http://www.facebook.com/swagdaddypurple"><img src="SiteImg/icons/facebook.svg" alt="Facebook" class="social-icon-small" data-toggle="tooltip" data-placement="top" title="Facebook"></a>
+          <a target="_blank" rel="noopener" href="http://www.linkedin.com/in/tuckertriggs"><img src="SiteImg/icons/linkedin.svg" alt="LinkedIn" class="social-icon-small" data-toggle="tooltip" data-placement="top" title="LinkedIn"></a>
+          <a target="_blank" rel="noopener" href="https://www.github.com/tuckpuck"><img src="SiteImg/icons/github.svg" alt="Github" class="social-icon-small" data-toggle="tooltip" data-placement="top" title="Github"></a>
+          <a target="_blank" rel="noopener" href="instagram.html"><img src="SiteImg/icons/instagram.svg" alt="Instagram" class="social-icon-small" data-toggle="tooltip" data-placement="top" title="Instagram"></a>
         </div>
       </div>
     </footer>
@@ -236,13 +236,16 @@
     <!--Link to JQuery-->
     <script type="text/javascript" src="JS/Jquery.min.js"></script>
     <!--Link to Tether-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"> </script>
     <!-- Link to Bootstrap Javascript-->
     <script type="text/javascript" src="JS/bootstrap.min.js"></script>
     <!--Navbutton Enlarge-->
     <script type="text/javascript" src="JS/NavbuttonSize.js"></script>
-    <!--Lightbox-->
-    <script type="text/javascript" src="JS/Lightbox.js"></script>
+<!-- Initialize Tooltips -->
+    <script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})</script>
     <!--End JS-->
 
 </body>
