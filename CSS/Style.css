@@ -25,10 +25,6 @@ body {
   font-size: 16px;
 }
 
-.wrap {
-  /*background: url(../SiteImg/backgroundPattern/bright_squares.png);*/
-}
-
 .main-area {
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
@@ -37,11 +33,6 @@ body {
 
 .alpha {
   background: url(../SiteImg/backgroundPattern/snow.png);
-}
-
-.container {
-  padding-left: 0px;
-  padding-right: 0px;
 }
 
 /* heirarchy, font and font Sizes */
@@ -120,7 +111,6 @@ span {
 }
 
 /* navigation styling */
-
 .main-nav {
   padding: .9em 0px;
 }
@@ -221,7 +211,7 @@ span {
   font-size: 1em;
 }
 
-/* home index */
+/* home index portfolio */
 .port-pic {
   vertical-align: middle;
   display: inline;
