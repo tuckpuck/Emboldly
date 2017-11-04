@@ -53,10 +53,6 @@ extra large (large desktops, above 75em / 1200px)*/
 /* small, 544px to 768px */
 
 @media (min-width: 34em) and (max-width: 48em) {
-  #copyright {
-    float: left;
-    margin-left: 0px;
-  }
 }
 
 
@@ -109,14 +105,24 @@ extra large (large desktops, above 75em / 1200px)*/
     display: block;
     margin: 0 auto;
   }
+  .footer-respond {
+    max-width: 100%;
+    margin: 0px auto;
+}
   .footer-social {
     float: none;
-    padding: 10px;
-    margin-right: 11px;
   }
   .social-icon-small {
     max-height: 110px;
     margin: 2px;
+    max-width: 40px;
+    display: inline-block;
+    float: left;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  #copyright {
+    float: none !important;
   }
   .flickr {
     margin-top: 9px;
@@ -168,9 +174,6 @@ extra large (large desktops, above 75em / 1200px)*/
   }
   a.navbuttonarrow {
     visibility: hidden;
-  }
-  div#copyright {
-    max-width: 300px;
   }
   .contactinfo {
     margin-left: 20px;
@@ -224,6 +227,11 @@ extra large (large desktops, above 75em / 1200px)*/
   .main-nav {
     padding: 0px 0px;
   }
+  #copyright {
+    float: left;
+    margin-left: 0px;
+    max-width: 300px;
+  }
   .babycircle {
     margin-bottom: 20px
   }
@@ -241,29 +249,15 @@ extra large (large desktops, above 75em / 1200px)*/
 
 
 /* under extra large, below 1200px */
-
 @media (max-width: 75em) {
   .testamonialtopmargin {
     margin-top: -20px;
   }
 }
-
 @media (max-width: 34em) {
   #copyright {
     display: block;
     margin: 0 auto;
-  }
-  .footer-social {
-    float: none;
-    padding: 10px;
-    margin-right: 11px;
-  }
-  .social-icon-small {
-    max-height: 110px;
-    margin: 2px;
-  }
-  .flickr {
-    margin-top: 9px;
   }
   .main-footer {
     height: 100%;
