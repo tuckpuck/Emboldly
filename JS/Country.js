@@ -8887,8 +8887,21 @@ var dataMap = new Datamap({
         , VAT: {
             fillKey: 'gt'
         }
+        , MAR: {
+          fillKey: 'gt'
+        }
+        , PRT: {
+          fillKey: 'gt'
+        }
+        , VNM: {
+          fillKey: 'gt'
+        }
+        , SGP: {
+          fillKey: 'gt'
+        }
     , }
     , done: function (datamap) {
+      console.log(Object.keys(datamap.options.data).length);
         datamap.svg.selectAll('.datamaps-subunit').on('click', function (geography) {
             Popup.Show(geography, datamap.options.data[geography.id], this, d3.event);
         });
