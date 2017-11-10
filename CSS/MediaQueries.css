@@ -25,7 +25,7 @@ extra large (large desktops, above 75em / 1200px)*/
   .port-info-panel {
     border: none;
     height: 150px;
-    width: 500px;
+    width: 520px;
     padding: 0px;
     margin-top: -10px;
     margin-bottom: 15px;
@@ -34,14 +34,13 @@ extra large (large desktops, above 75em / 1200px)*/
   .port-under-panel {
     border: none;
     background-color: inherit;
-
   }
   .port-item a figure img {
     width: 600px;
     height: 350px;
   }
   .left-panel {
-    margin-left: -10px;
+    /*margin-left: 5px;*/
   }
 }
 
@@ -328,5 +327,10 @@ extra large (large desktops, above 75em / 1200px)*/
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .blog-element a img {
+    width: 325px;
+    height: 215px;
+    margin: auto 25px;
   }
 }

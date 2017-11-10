@@ -416,9 +416,23 @@ figure.mouseover-effect:hover h3, figure.mouseover-effect:hover p {
   margin-top: 20px;
 }
 
+
 /* services */
 .panel {
   padding: 0 0 10px 0;
+}
+
+.ui-widget-content {
+  background: none !important;
+}
+
+.accordion-pgf {
+  vertical-align: middle;
+  line-height: 1.5;
+}
+
+.ui-state-active {
+  background: #ddd;
 }
 
 .collapse-padding {
