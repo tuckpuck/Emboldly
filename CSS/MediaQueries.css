@@ -57,7 +57,7 @@ extra large (large desktops, above 75em / 1200px)*/
 
 /* medium, 786px to 992px - Tablet Size */
 
-@media (min-width: 48em) and (max-width: 62em) {
+@media (min-width: 48em) and (max-width: 61.99em) {
   h1#name {
     text-align: center;
     margin-bottom: -18px;
@@ -66,6 +66,10 @@ extra large (large desktops, above 75em / 1200px)*/
     display: flex;
     justify-content: center;
   }
+  .blog-element a img {
+      width: 400px;
+      height: auto;
+    }
 }
 
 
@@ -129,6 +133,10 @@ extra large (large desktops, above 75em / 1200px)*/
   .main-footer {
     height: 100%;
   }
+  #map {
+    height: 400px;
+  }
+
 }
 
 
@@ -209,9 +217,18 @@ extra large (large desktops, above 75em / 1200px)*/
   .port-pic {
     display: ;
   }
-
   .port-intro {
     display: inherit;
+  }
+  #map-legend {
+margin-right: auto;
+left: -10px;
+right: 0;
+top: 0;
+box-shadow: none;
+  }
+  .under-md-display-none {
+    display: none;
   }
 }
 
