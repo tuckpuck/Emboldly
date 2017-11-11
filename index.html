@@ -246,12 +246,9 @@
     <script>
       if(window.matchMedia("(min-width: 48em)").matches)$(".expand").on("mouseenter",function(){var div=$(this);div.stop(true,true).animate({width:"+=10"},"fast")}).on("mouseleave",function(){var div=$(this);div.stop(true,true).animate({width:"-=10"},"fast")});else $(".expand").on("mouseenter",function(){var div=$(this);div.stop(true,true).animate({width:"+=0"},"fast")}).on("mouseleave",function(){var div=$(this);div.stop(true,true).animate({width:"-=0"},"fast")});
     </script>
-<!-- Initialize Tooltips -->
-    <script>
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})</script>
-    <!--End js-->
+<!-- initialize tooltips -->
+  <script>$(function () {$('[data-toggle="tooltip"]').tooltip()})</script>
+  <!--end js-->
 
 </body>
 
