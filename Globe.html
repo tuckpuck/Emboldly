@@ -132,8 +132,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
     <!-- Link to Bootstrap Javascript-->
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <!--Navbutton Enlarge-->
-    <script type="text/javascript" src="js/navsize.js"></script>
     <!--Map-->
     <script type="text/javascript" src="js/country.min.js"></script>
     <!-- Initialize Tooltips -->
@@ -632,6 +630,10 @@
                   $( "path").on( "mouseout", function() {
                     $( ".country-text").hide();
                   });
+</script>
+<!-- navbutton resize -->
+<script>
+  if(window.matchMedia("(min-width: 48em)").matches)$(".expand").on("mouseenter",function(){var div=$(this);div.stop(true,true).animate({width:"+=10"},"fast")}).on("mouseleave",function(){var div=$(this);div.stop(true,true).animate({width:"-=10"},"fast")});else $(".expand").on("mouseenter",function(){var div=$(this);div.stop(true,true).animate({width:"+=0"},"fast")}).on("mouseleave",function(){var div=$(this);div.stop(true,true).animate({width:"-=0"},"fast")});
 </script>
             <!--End js-->
   </body>
