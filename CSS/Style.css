@@ -81,6 +81,10 @@ span {
   font-size: 1.31rem;
 }
 
+.verylrgfont {
+  font-size: 1.45rem;
+}
+
 /* header */
 .main-header {
   background-color: rgb(31, 49, 59);
