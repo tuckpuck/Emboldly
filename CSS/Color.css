@@ -42,7 +42,11 @@
   }
 
   .btncolor {
-    background-color: rgba(69, 89, 198, 0.2);
+    background-color: rgba(69, 89, 198, 0.25);
+    transition: all .1s;
+  }
+  .btncolor:hover {
+    background-color: rgba(69, 89, 198, 0.35);
   }
 
 
