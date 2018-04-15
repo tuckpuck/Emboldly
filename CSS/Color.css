@@ -1,27 +1,15 @@
 /*Color Styles*/
 /*Non-hover styles for links*/
 
-
 /*--------------------------------*/
 
-  .redhovbor:hover {
-    border-top: 2px solid #ff6f6f;
-  }
-  .orangehovbor:hover {
-    border-top: 2px solid #f4b598;
-  }
-  .yellowhovbor:hover {
-    border-top: 2px solid #f6ffb2;
-  }
-  .greenhovbor:hover {
-    border-top: 2px solid #b1ffa3;
-  }
-  .bluehovbor:hover {
-    border-top: 2px solid #a3ffdc;
-  }
-  .purplehovbor:hover {
-    border-top: 2px solid #ce8aff;
-  }
+/* red: #9f0831;    */
+/* orange: #F26C4F; */
+/* yellow: #FCB062; */
+/* green: #81d252   */
+/* blue: #5E8EBE    */
+/* purple: #4E47A8  */
+
   #red {
     background-color: rgba(255, 79, 73, 0.8);
   }
@@ -50,7 +38,7 @@
   }
 
 
-a.red {
+a.red:hover {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,9f0831+100&0+0,1+100 */
   background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgb(191, 24, 70) 100%);
   /* FF3.6-15 */
@@ -62,7 +50,7 @@ a.red {
   /* IE6-9 */
 }
 
-a.orange {
+a.orange:hover {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f26c4f+100&0+0,1+100 */
   background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(242, 108, 79, 1) 100%);
   /* FF3.6-15 */
@@ -74,7 +62,7 @@ a.orange {
   /* IE6-9 */
 }
 
-a.yellow {
+a.yellow:hover {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,fcb062+100&0+0,1+100 */
   background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(252, 176, 98, 1) 100%);
   /* FF3.6-15 */
@@ -86,7 +74,7 @@ a.yellow {
   /* IE6-9 */
 }
 
-a.green {
+a.green:hover {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,81d252+100&0+0,1+100 */
   background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(129, 210, 82, 1) 100%);
   /* FF3.6-15 */
@@ -98,7 +86,7 @@ a.green {
   /* IE6-9 */
 }
 
-a.blue {
+a.blue:hover {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,5e8ebe+100&0+0,1+100 */
   background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(94, 142, 190, 1) 100%);
   /* FF3.6-15 */
@@ -110,7 +98,7 @@ a.blue {
   /* IE6-9 */
 }
 
-a.purple {
+a.purple:hover {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,4e47a8+99&0+0,1+100 */
   background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(78, 71, 168, 0.99) 99%, rgba(78, 71, 168, 1) 100%);
   /* FF3.6-15 */
@@ -128,7 +116,7 @@ a.purple {
 
 /*--------------------------------*/
 
-a.red:hover {
+a.red {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9f0831+0,ffffff+100&1+0,0+100 */
   background: -moz-linear-gradient(top, rgb(191, 24, 70) 0%, rgba(255, 255, 255, 0) 100%);
   /* FF3.6-15 */
@@ -141,7 +129,7 @@ a.red:hover {
   text-decoration: none;
 }
 
-a.orange:hover {
+a.orange {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f26c4f+0,ffffff+100&1+0,0+100 */
   background: -moz-linear-gradient(top, rgba(242, 108, 79, 1) 0%, rgba(255, 255, 255, 0) 100%);
   /* FF3.6-15 */
@@ -154,7 +142,7 @@ a.orange:hover {
   text-decoration: none;
 }
 
-a.yellow:hover {
+a.yellow {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcb062+0,ffffff+100&1+0,0+100 */
   background: -moz-linear-gradient(top, rgba(252, 176, 98, 1) 0%, rgba(255, 255, 255, 0) 100%);
   /* FF3.6-15 */
@@ -167,7 +155,7 @@ a.yellow:hover {
   text-decoration: none;
 }
 
-a.blue:hover {
+a.blue {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5e8ebe+0,ffffff+100&1+0,0+100 */
   background: -moz-linear-gradient(top, rgba(94, 142, 190, 1) 0%, rgba(255, 255, 255, 0) 100%);
   /* FF3.6-15 */
@@ -180,7 +168,7 @@ a.blue:hover {
   text-decoration: none;
 }
 
-a.green:hover {
+a.green {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#81d252+0,ffffff+100&1+0,0+100 */
   background: -moz-linear-gradient(top, rgba(129, 210, 82, 1) 0%, rgba(255, 255, 255, 0) 100%);
   /* FF3.6-15 */
@@ -193,7 +181,7 @@ a.green:hover {
     text-decoration: none;
 }
 
-a.purple:hover {
+a.purple {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4e47a8+1,ffffff+100&1+0,0+100 */
   background: -moz-linear-gradient(top, rgba(78, 71, 168, 1) 0%, rgba(78, 71, 168, 0.99) 1%, rgba(255, 255, 255, 0) 100%);
   /* FF3.6-15 */
