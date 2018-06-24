@@ -95,7 +95,7 @@
   <!--Begin Footer-->
   <footer class="main-footer clearfix">
     <div class="footer-respond">
-      <div id="copyright"> 2018 &copy; Tucker Triggs </div>
+      <div id="copyright"> <span class="currentYear"></span> &copy; Tucker Triggs </div>
       <div class="footer-social">
         <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/tuckertriggs/"><img src="siteimages/icons/flickr.svg" alt="Flickr" class="social-icon-small"  data-toggle="tooltip" data-placement="top" title="Flickr"></a>
         <a target="_blank" rel="noopener" href="https://twitter.com/triggsmetatech"><img src="siteimages/icons/twitter.svg" alt="Twitter" class="social-icon-small" data-toggle="tooltip" data-placement="top" title="Twitter"></a>
@@ -121,6 +121,14 @@
   </script>
   <!-- initialize tooltips -->
     <script>$(function () {$('[data-toggle="tooltip"]').tooltip()})</script>
+
+    <!-- dynamically set copyright date -->
+  <script>
+    var theDate=new Date().getFullYear();
+    theDate = theDate.toString();
+    $(".currentYear").text(theDate);
+  </script>
+   
     <!-- google analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107288429-1"></script>
   <script>

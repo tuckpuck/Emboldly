@@ -212,6 +212,11 @@ span {
   font-size: 1em;
 }
 
+.currentYear {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
 /* home index portfolio */
 .port-pic {
   vertical-align: middle;
